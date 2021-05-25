@@ -7,9 +7,10 @@ struct MenuButtonView: View {
 	var body: some View {
 		HStack(alignment: .top){
 			Text(title)
+				.font(.title3)
 				.bold()
 				.padding()
-				.padding(.vertical)
+				.foregroundColor(.white)
 			Spacer()
 		}
 		.background(
@@ -19,11 +20,11 @@ struct MenuButtonView: View {
 				.frame(width: 50, height: 100)
 				.offset(x: 55)
 		)
-		.foregroundColor(.white)
+		.frame(minWidth: 120, idealWidth: 140, maxWidth: 160, minHeight: 50, idealHeight: 60, maxHeight: 70)
 		.background(Color(color))
 		.cornerRadius(15)
 		.padding(.bottom)
-		.shadow(color: Color(color), radius: 7, x: 0, y: 5)
+		.shadow(color: Color(color), radius: 8, x: 0, y: 8)
 	}
 }
 

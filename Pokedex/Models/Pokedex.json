@@ -2,7 +2,7 @@
 	{
 		num: "001",
 		name: "Bulbasaur",
-		type: ["grass", "poison"],
+		type: ["Grass", "Poison"],
 		species: "Seed Pokemon",
 		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
 		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
@@ -33,7 +33,7 @@
 	{
 		num: "002",
 		name: "Ivysaur",
-		type: ["grass", "poison"],
+		type: ["Grass", "Poison"],
 		species: "Seed Pokemon",
 		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
 		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
@@ -52,7 +52,7 @@
 		}
 		evolution: [
 			{
-				level: 34,
+				level: 32,
 				form: "Venusaur"
 			}
 		]
@@ -60,7 +60,7 @@
 	{
 		num: "003",
 		name: "Venusaur",
-		type: ["grass", "poison"],
+		type: ["Grass", "Poison"],
 		species: "Seed Pokemon",
 		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
 		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
@@ -82,7 +82,7 @@
 	{
 		num: "004",
 		name: "Charmander",
-		type: ["grass", "poison"],
+		type: ["Fire"],
 		species: "Seed Pokemon",
 		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
 		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
@@ -102,18 +102,18 @@
 		evolution: [
 			{
 				level: 16,
-				form: "Ivysaur"
+				form: "Charmeleon"
 			},
 			{
-				level: 34,
-				form: "Venusaur"
+				level: 36,
+				form: "Charizard"
 			}
 		]
 	},
 	{
 		num: "005",
 		name: "Charmeleon",
-		type: ["grass", "poison"],
+		type: ["Fire"],
 		species: "Seed Pokemon",
 		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
 		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
@@ -132,19 +132,15 @@
 		}
 		evolution: [
 			{
-				level: 16,
-				form: "Ivysaur"
-			},
-			{
-				level: 34,
-				form: "Venusaur"
+				level: 32,
+				form: "Charizard"
 			}
 		]
 	},
 	{
 		num: "006",
 		name: "Charizard",
-		type: ["grass", "poison"],
+		type: ["Fire", "Flying"],
 		species: "Seed Pokemon",
 		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
 		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
@@ -161,21 +157,12 @@
 			spDefense: 65,
 			speed: 45
 		}
-		evolution: [
-			{
-				level: 16,
-				form: "Ivysaur"
-			},
-			{
-				level: 34,
-				form: "Venusaur"
-			}
-		]
+		evolution: []
 	},
 	{
 		num: "007",
 		name: "Squirtle",
-		type: ["grass", "poison"],
+		type: ["Water"],
 		species: "Seed Pokemon",
 		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
 		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
@@ -195,18 +182,18 @@
 		evolution: [
 			{
 				level: 16,
-				form: "Ivysaur"
+				form: "Wartortle"
 			},
 			{
-				level: 34,
-				form: "Venusaur"
+				level: 36,
+				form: "Blastoise"
 			}
 		]
 	},
 	{
 		num: "008",
 		name: "Wartortle",
-		type: ["grass", "poison"],
+		type: ["Water"],
 		species: "Seed Pokemon",
 		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
 		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
@@ -225,19 +212,15 @@
 		}
 		evolution: [
 			{
-				level: 16,
-				form: "Ivysaur"
-			},
-			{
-				level: 34,
-				form: "Venusaur"
+				level: 36,
+				form: "Blastoise"
 			}
 		]
 	},
 	{
 		num: "009",
 		name: "Blastoise",
-		type: ["grass", "poison"],
+		type: ["Water"],
 		species: "Seed Pokemon",
 		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
 		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
@@ -254,21 +237,12 @@
 			spDefense: 65,
 			speed: 45
 		}
-		evolution: [
-			{
-				level: 16,
-				form: "Ivysaur"
-			},
-			{
-				level: 34,
-				form: "Venusaur"
-			}
-		]
+		evolution: []
 	},
 	{
 		num: "010",
 		name: "Caterpie",
-		type: ["grass", "poison"],
+		type: ["Bug"],
 		species: "Seed Pokemon",
 		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
 		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
@@ -287,19 +261,19 @@
 		}
 		evolution: [
 			{
-				level: 16,
-				form: "Ivysaur"
+				level: 7,
+				form: "Metapod"
 			},
 			{
-				level: 34,
-				form: "Venusaur"
+				level: 10,
+				form: "Butterfree"
 			}
 		]
 	},
 	{
 		num: "011",
 		name: "Metapod",
-		type: ["grass", "poison"],
+		type: ["Bug"],
 		species: "Seed Pokemon",
 		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
 		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
@@ -318,19 +292,15 @@
 		}
 		evolution: [
 			{
-				level: 16,
-				form: "Ivysaur"
-			},
-			{
-				level: 34,
-				form: "Venusaur"
+				level: 10,
+				form: "Butterfree"
 			}
 		]
 	},
 	{
 		num: "012",
 		name: "Butterfree",
-		type: ["grass", "poison"],
+		type: ["Bug", "Flying"],
 		species: "Seed Pokemon",
 		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
 		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
@@ -347,21 +317,12 @@
 			spDefense: 65,
 			speed: 45
 		}
-		evolution: [
-			{
-				level: 16,
-				form: "Ivysaur"
-			},
-			{
-				level: 34,
-				form: "Venusaur"
-			}
-		]
+		evolution: []
 	},
 	{
 		num: "013",
 		name: "Weedle",
-		type: ["grass", "poison"],
+		type: ["Bug", "Poison"],
 		species: "Seed Pokemon",
 		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
 		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
@@ -380,19 +341,19 @@
 		}
 		evolution: [
 			{
-				level: 16,
-				form: "Ivysaur"
+				level: 7,
+				form: "Kakuna"
 			},
 			{
-				level: 34,
-				form: "Venusaur"
+				level: 10,
+				form: "Beedrill"
 			}
 		]
 	},
 	{
 		num: "014",
 		name: "Kakuna",
-		type: ["grass", "poison"],
+		type: ["Bug", "Poison"],
 		species: "Seed Pokemon",
 		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
 		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
@@ -411,19 +372,15 @@
 		}
 		evolution: [
 			{
-				level: 16,
-				form: "Ivysaur"
-			},
-			{
-				level: 34,
-				form: "Venusaur"
+				level: 10,
+				form: "Beedrill"
 			}
 		]
 	},
 	{
 		num: "015",
 		name: "Beedrill",
-		type: ["grass", "poison"],
+		type: ["Bug", "Poison"],
 		species: "Seed Pokemon",
 		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
 		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
@@ -440,21 +397,12 @@
 			spDefense: 65,
 			speed: 45
 		}
-		evolution: [
-			{
-				level: 16,
-				form: "Ivysaur"
-			},
-			{
-				level: 34,
-				form: "Venusaur"
-			}
-		]
+		evolution: []
 	},
 	{
 		num: "016",
 		name: "Pidgey",
-		type: ["grass", "poison"],
+		type: ["Normal", "Flying"],
 		species: "Seed Pokemon",
 		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
 		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
@@ -473,19 +421,19 @@
 		}
 		evolution: [
 			{
-				level: 16,
-				form: "Ivysaur"
+				level: 18,
+				form: "Pidgeotto"
 			},
 			{
-				level: 34,
-				form: "Venusaur"
+				level: 36,
+				form: "Pidgeot"
 			}
 		]
 	},
 	{
 		num: "017",
 		name: "Pidgeotto",
-		type: ["grass", "poison"],
+		type: ["Normal", "Flying"],
 		species: "Seed Pokemon",
 		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
 		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
@@ -504,19 +452,15 @@
 		}
 		evolution: [
 			{
-				level: 16,
-				form: "Ivysaur"
-			},
-			{
-				level: 34,
-				form: "Venusaur"
+				level: 36,
+				form: "Pidgeot"
 			}
 		]
 	},
 	{
 		num: "018",
 		name: "Pidgeot",
-		type: ["grass", "poison"],
+		type: ["Normal", "Flying"],
 		species: "Seed Pokemon",
 		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
 		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
@@ -533,21 +477,12 @@
 			spDefense: 65,
 			speed: 45
 		}
-		evolution: [
-			{
-				level: 16,
-				form: "Ivysaur"
-			},
-			{
-				level: 34,
-				form: "Venusaur"
-			}
-		]
+		evolution: []
 	},
 	{
 		num: "019",
 		name: "Rattata",
-		type: ["grass", "poison"],
+		type: ["Normal"],
 		species: "Seed Pokemon",
 		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
 		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
@@ -566,19 +501,15 @@
 		}
 		evolution: [
 			{
-				level: 16,
-				form: "Ivysaur"
-			},
-			{
-				level: 34,
-				form: "Venusaur"
+				level: 20,
+				form: "Raticate"
 			}
 		]
 	},
 	{
 		num: "020",
 		name: "Raticate",
-		type: ["grass", "poison"],
+		type: ["Normal"],
 		species: "Seed Pokemon",
 		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
 		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
@@ -595,21 +526,12 @@
 			spDefense: 65,
 			speed: 45
 		}
-		evolution: [
-			{
-				level: 16,
-				form: "Ivysaur"
-			},
-			{
-				level: 34,
-				form: "Venusaur"
-			}
-		]
+		evolution: []
 	},
 	{
 		num: "021",
 		name: "Spearow",
-		type: ["grass", "poison"],
+		type: ["Normal", "Flying"],
 		species: "Seed Pokemon",
 		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
 		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
@@ -628,19 +550,15 @@
 		}
 		evolution: [
 			{
-				level: 16,
-				form: "Ivysaur"
-			},
-			{
-				level: 34,
-				form: "Venusaur"
+				level: 20,
+				form: "Fearow"
 			}
 		]
 	},
 	{
 		num: "022",
 		name: "Fearow",
-		type: ["grass", "poison"],
+		type: ["Normal", "Flying"],
 		species: "Seed Pokemon",
 		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
 		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
@@ -657,21 +575,12 @@
 			spDefense: 65,
 			speed: 45
 		}
-		evolution: [
-			{
-				level: 16,
-				form: "Ivysaur"
-			},
-			{
-				level: 34,
-				form: "Venusaur"
-			}
-		]
+		evolution: []
 	},
 	{
 		num: "023",
 		name: "Ekans",
-		type: ["grass", "poison"],
+		type: ["Poison"],
 		species: "Seed Pokemon",
 		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
 		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
@@ -690,19 +599,15 @@
 		}
 		evolution: [
 			{
-				level: 16,
-				form: "Ivysaur"
-			},
-			{
-				level: 34,
-				form: "Venusaur"
+				level: 22,
+				form: "Arbok"
 			}
 		]
 	},
 	{
 		num: "024",
 		name: "Arbok",
-		type: ["grass", "poison"],
+		type: ["Poison"],
 		species: "Seed Pokemon",
 		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
 		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
@@ -719,21 +624,12 @@
 			spDefense: 65,
 			speed: 45
 		}
-		evolution: [
-			{
-				level: 16,
-				form: "Ivysaur"
-			},
-			{
-				level: 34,
-				form: "Venusaur"
-			}
-		]
+		evolution: []
 	},
 	{
 		num: "025",
 		name: "Pikachu",
-		type: ["grass", "poison"],
+		type: ["Electric"],
 		species: "Seed Pokemon",
 		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
 		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
@@ -752,19 +648,15 @@
 		}
 		evolution: [
 			{
-				level: 16,
-				form: "Ivysaur"
-			},
-			{
-				level: 34,
-				form: "Venusaur"
+				stone: "Thunder Stone",
+				form: "Raichu"
 			}
 		]
 	},
 	{
 		num: "026",
 		name: "Raichu",
-		type: ["grass", "poison"],
+		type: ["Electric"],
 		species: "Seed Pokemon",
 		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
 		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
@@ -781,21 +673,12 @@
 			spDefense: 65,
 			speed: 45
 		}
-		evolution: [
-			{
-				level: 16,
-				form: "Ivysaur"
-			},
-			{
-				level: 34,
-				form: "Venusaur"
-			}
-		]
+		evolution: []
 	},
 	{
 		num: "027",
 		name: "Sandshrew",
-		type: ["grass", "poison"],
+		type: ["Ground"],
 		species: "Seed Pokemon",
 		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
 		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
@@ -814,19 +697,15 @@
 		}
 		evolution: [
 			{
-				level: 16,
-				form: "Ivysaur"
-			},
-			{
-				level: 34,
-				form: "Venusaur"
+				level: 22,
+				form: "Sandslash"
 			}
 		]
 	},
 	{
 		num: "028",
 		name: "Sandslash",
-		type: ["grass", "poison"],
+		type: ["Ground"],
 		species: "Seed Pokemon",
 		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
 		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
@@ -843,21 +722,12 @@
 			spDefense: 65,
 			speed: 45
 		}
-		evolution: [
-			{
-				level: 16,
-				form: "Ivysaur"
-			},
-			{
-				level: 34,
-				form: "Venusaur"
-			}
-		]
+		evolution: []
 	},
 	{
 		num: "029",
 		name: "Nidoran♀",
-		type: ["grass", "poison"],
+		type: ["Poison"],
 		species: "Seed Pokemon",
 		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
 		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
@@ -877,18 +747,67 @@
 		evolution: [
 			{
 				level: 16,
-				form: "Ivysaur"
+				form: "Nidorina"
 			},
 			{
-				level: 34,
-				form: "Venusaur"
+				stone: "Moon Stone",
+				form: "Nidoqueen"
 			}
 		]
 	},
 	{
 		num: "030",
 		name: "Nidorina",
-		type: ["grass", "poison"],
+		type: ["Poison"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				stone: "Moon Stone",
+				form: "Nidoqueen"
+			}
+		]
+	},
+	{
+		num: "031",
+		name: "Nidoqueen",
+		type: ["Poison", "Ground"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "032",
+		name: "Nidoran♂",
+		type: ["Poison"],
 		species: "Seed Pokemon",
 		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
 		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
@@ -916,4 +835,2912 @@
 			}
 		]
 	},
+	{
+		num: "033",
+		name: "Nidorino",
+		type: ["Poison"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			}
+		]
+	},
+	{
+		num: "034",
+		name: "Nidoking",
+		type: ["Poison", "Ground"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "035",
+		name: "Clefairy",
+		type: ["Fairy"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			}
+		]
+	},
+	{
+		num: "036",
+		name: "Clefable",
+		type: ["Fairy"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "037",
+		name: "Vulpix",
+		type: ["Fire"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			}
+		]
+	},
+	{
+		num: "038",
+		name: "Ninetales",
+		type: ["Fire"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "039",
+		name: "Jigglypuff",
+		type: ["Normal", "Fairy"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			}
+		]
+	},
+	{
+		num: "040",
+		name: "Wigglytuff",
+		type: ["Normal", "Fairy"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "041",
+		name: "Zubat",
+		type: ["Poison", "Flying"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			}
+		]
+	},
+	{
+		num: "042",
+		name: "Golbat",
+		type: ["Poison", "Flying"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "043",
+		name: "Oddish",
+		type: ["Grass", "Poison"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			},
+			{
+				level: 34,
+				form: "Venusaur♂"
+			}
+		]
+	},
+	{
+		num: "044",
+		name: "Gloom",
+		type: ["Grass", "Poison"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			}
+		]
+	},
+	{
+		num: "045",
+		name: "Vileplume",
+		type: ["Grass", "Poison"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "046",
+		name: "Paras",
+		type: ["Bug", "Grass"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			}
+		]
+	},
+	{
+		num: "047",
+		name: "Parasect",
+		type: ["Bug", "Grass"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "048",
+		name: "Venonat",
+		type: ["Bug", "Poison"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			}
+		]
+	},
+	{
+		num: "049",
+		name: "Venomoth",
+		type: ["Bug", "Poison"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "050",
+		name: "Diglett",
+		type: ["Ground"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			}
+		]
+	},
+	{
+		num: "051",
+		name: "Dugtrio",
+		type: ["Ground"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "052",
+		name: "Meowth",
+		type: ["Normal"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			}
+		]
+	},
+	{
+		num: "053",
+		name: "Persian",
+		type: ["Normal"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "054",
+		name: "Psyduck",
+		type: ["Water"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			}
+		]
+	},
+	{
+		num: "055",
+		name: "Golduck",
+		type: ["Water"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "056",
+		name: "Mankey",
+		type: ["Fighting"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			}
+		]
+	},
+	{
+		num: "057",
+		name: "Primeape",
+		type: ["Fighting"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "058",
+		name: "Growlithe",
+		type: ["Fire"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			}
+		]
+	},
+	{
+		num: "059",
+		name: "Arcanine",
+		type: ["Fire"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "060",
+		name: "Poliwag",
+		type: ["Water"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			},
+			{
+				level: 34,
+				form: "Venusaur♂"
+			}
+		]
+	},
+	{
+		num: "061",
+		name: "Poliwhirl",
+		type: ["Water"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			}
+		]
+	},
+	{
+		num: "062",
+		name: "Poliwrath",
+		type: ["Water", "Fighting"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "063",
+		name: "Abra",
+		type: ["Psychic"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			},
+			{
+				level: 34,
+				form: "Venusaur♂"
+			}
+		]
+	},
+	{
+		num: "064",
+		name: "Kadabra",
+		type: ["Psychic"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			}
+		]
+	},
+	{
+		num: "065",
+		name: "Alakazam",
+		type: ["Psychic"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "066",
+		name: "Machop",
+		type: ["Fighting"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			},
+			{
+				level: 34,
+				form: "Venusaur♂"
+			}
+		]
+	},
+	{
+		num: "067",
+		name: "Machoke",
+		type: ["Fighting"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			}
+		]
+	},
+	{
+		num: "068",
+		name: "Machamp",
+		type: ["Fighting"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "069",
+		name: "Bellsprout",
+		type: ["Grass", "Poison"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			},
+			{
+				level: 34,
+				form: "Venusaur♂"
+			}
+		]
+	},
+	{
+		num: "070",
+		name: "Weepinbell",
+		type: ["Grass", "Poison"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			}
+		]
+	},
+	{
+		num: "071",
+		name: "Victreebel",
+		type: ["Grass", "Poison"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "072",
+		name: "Tentacool",
+		type: ["Water", "Poison"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			}
+		]
+	},
+	{
+		num: "073",
+		name: "Tentacruel",
+		type: ["Water", "Poison"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "074",
+		name: "Geodude",
+		type: ["Rock", "Ground"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			},
+			{
+				level: 34,
+				form: "Venusaur♂"
+			}
+		]
+	},
+	{
+		num: "075",
+		name: "Graveler",
+		type: ["Rock", "Ground"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			}
+		]
+	},
+	{
+		num: "076",
+		name: "Golem",
+		type: ["Rock", "Ground"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "077",
+		name: "Ponyta",
+		type: ["Fire"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			}
+		]
+	},
+	{
+		num: "078",
+		name: "Rapidash",
+		type: ["Fire"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "079",
+		name: "Slowpoke",
+		type: ["Water", "Psychic"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			}
+		]
+	},
+	{
+		num: "080",
+		name: "Slowbro",
+		type: ["Water", "Psychic"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "081",
+		name: "Magnemite",
+		type: ["Electric", "Steel"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			}
+		]
+	},
+	{
+		num: "082",
+		name: "Magneton",
+		type: ["Electric", "Steel"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "083",
+		name: "Farfetch'd",
+		type: ["Normal", "Flying"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "084",
+		name: "Doduo",
+		type: ["Normal", "Flying"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			}
+		]
+	},
+	{
+		num: "085",
+		name: "Dodrio",
+		type: ["Normal", "Flying"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "086",
+		name: "Seel",
+		type: ["Water"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			}
+		]
+	},
+	{
+		num: "087",
+		name: "Dewgong",
+		type: ["Water", "Ice"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "088",
+		name: "Grimer",
+		type: ["Poison"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			}
+		]
+	},
+	{
+		num: "089",
+		name: "Muk",
+		type: ["Poison"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "090",
+		name: "Shellder",
+		type: ["Water"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			}
+		]
+	},
+	{
+		num: "091",
+		name: "Cloyster",
+		type: ["Water", "Ice"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "092",
+		name: "Gastly",
+		type: ["Ghost", "Poison"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			},
+			{
+				level: 34,
+				form: "Venusaur♂"
+			}
+		]
+	},
+	{
+		num: "093",
+		name: "Haunter",
+		type: ["Ghost", "Poison"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			}
+		]
+	},
+	{
+		num: "094",
+		name: "Gengar",
+		type: ["Ghost", "Poison"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "095",
+		name: "Onix",
+		type: ["Rock", "Ground"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "096",
+		name: "Drowzee",
+		type: ["Psychic"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			}
+		]
+	},
+	{
+		num: "097",
+		name: "Hypno",
+		type: ["Psychic"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "098",
+		name: "Krabby",
+		type: ["Water"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			}
+		]
+	},
+	{
+		num: "099",
+		name: "Kingler",
+		type: ["Water"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "100",
+		name: "Voltorb",
+		type: ["Electric"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			}
+		]
+	},
+	{
+		num: "101",
+		name: "Electrode",
+		type: ["Electric"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "102",
+		name: "Exeggcute",
+		type: ["Grass", "Psychic"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			}
+		]
+	},
+	{
+		num: "103",
+		name: "Exeggutor",
+		type: ["Grass", "Psychic"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "104",
+		name: "Cubone",
+		type: ["Ground"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			}
+		]
+	},
+	{
+		num: "105",
+		name: "Marowak",
+		type: ["Ground"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "106",
+		name: "Hitmonlee",
+		type: ["Fighting"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "107",
+		name: "Hitmonchan",
+		type: ["Fighting"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "108",
+		name: "Lickitung",
+		type: ["Normal"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "109",
+		name: "Koffing",
+		type: ["Poison"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			}
+		]
+	},
+	{
+		num: "110",
+		name: "Weezing",
+		type: ["Poison"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "111",
+		name: "Rhyhorn",
+		type: ["Ground", "Rock"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			}
+		]
+	},
+	{
+		num: "112",
+		name: "Rhydon",
+		type: ["Ground", "Rock"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "113",
+		name: "Chansey",
+		type: ["Normal"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "114",
+		name: "Tangela",
+		type: ["Grass"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "115",
+		name: "Kangaskhan",
+		type: ["Normal"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "116",
+		name: "Horsea",
+		type: ["Water"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			}
+		]
+	},
+	{
+		num: "117",
+		name: "Seadra",
+		type: ["Water"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "118",
+		name: "Goldeen",
+		type: ["Water"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			}
+		]
+	},
+	{
+		num: "119",
+		name: "Seaking",
+		type: ["Water"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "120",
+		name: "Staryu",
+		type: ["Water"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			}
+		]
+	},
+	{
+		num: "121",
+		name: "Starmie",
+		type: ["Water", "Psychic"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "122",
+		name: "Mr.Mime",
+		type: ["Psychic", "Fairy"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "123",
+		name: "Scyther",
+		type: ["Bug", "Flying"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "124",
+		name: "Jynx",
+		type: ["Ice", "Psychic"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "125",
+		name: "Electabuzz",
+		type: ["Electric"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "126",
+		name: "Magmar",
+		type: ["Fire"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "127",
+		name: "Pinsir",
+		type: ["Bug"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "128",
+		name: "Tauros",
+		type: ["Normal"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "129",
+		name: "Magikarp",
+		type: ["Water"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			}
+		]
+	},
+	{
+		num: "130",
+		name: "Gyarados",
+		type: ["Water", "Flying"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "131",
+		name: "Lapras",
+		type: ["Water", "Ice"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "132",
+		name: "Ditto",
+		type: ["Normal"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "133",
+		name: "Eevee",
+		type: ["Normal"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Vaporeon"
+			},
+			{
+				level: 16,
+				form: "Jolteon"
+			},
+			{
+				level: 34,
+				form: "Flareon♂"
+			}
+		]
+	},
+	{
+		num: "134",
+		name: "Vaporeon",
+		type: ["Water"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "135",
+		name: "Jolteon",
+		type: ["Electric"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "136",
+		name: "Flareon",
+		type: ["Fire"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "137",
+		name: "Porygon",
+		type: ["Normal"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "138",
+		name: "Omanyte",
+		type: ["Rock", "Water"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			}
+		]
+	},
+	{
+		num: "139
+		name: "Omastar",
+		type: ["Rock", "Water"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "140",
+		name: "Kabuto",
+		type: ["Rock", "Water"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			}
+		]
+	},
+	{
+		num: "141",
+		name: "Kabutops",
+		type: ["Rock", "Water"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "142",
+		name: "Aerodactyl",
+		type: ["Rock", "Flying"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "143",
+		name: "Snorlax",
+		type: ["Normal"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "144",
+		name: "Articuno",
+		type: ["Ice", "Flying"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "145",
+		name: "Zapdos",
+		type: ["Electric", "Flying"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "146",
+		name: "Moltres",
+		type: ["Fire", "Flying"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "147",
+		name: "Dratini",
+		type: ["Dragon"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			},
+			{
+				level: 34,
+				form: "Venusaur♂"
+			}
+		]
+	},
+	{
+		num: "148",
+		name: "Dragonair",
+		type: ["Dragon"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: [
+			{
+				level: 16,
+				form: "Ivysaur"
+			}
+		]
+	},
+	{
+		num: "149",
+		name: "Dragonite",
+		type: ["Dragon", "Flying"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "150",
+		name: "Mewtwo",
+		type: ["Psychic"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	},
+	{
+		num: "151",
+		name: "Mew",
+		type: ["Psychic"],
+		species: "Seed Pokemon",
+		image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+		about: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+		height: "0.7 m (2′04″)",
+		weight: "6.9 kg (15.2 lbs)",
+		gender: ["87.5%", "12.5%"],
+		eggGroup: "Monster",
+		eggCycle: "Grass",
+		baseState: {
+			hp: 45,
+			attack: 49,
+			defense: 49,
+			spAttack: 65,
+			spDefense: 65,
+			speed: 45
+		}
+		evolution: []
+	}
 ]

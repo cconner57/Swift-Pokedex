@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A54C573526582D980031DF26 /* MenuButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54C573426582D980031DF26 /* MenuButtonView.swift */; };
-		A54C5739265852D40031DF26 /* PokeBallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54C5738265852D40031DF26 /* PokeBallView.swift */; };
 		A54C573C265861670031DF26 /* PokedexListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54C573B265861670031DF26 /* PokedexListView.swift */; };
 		A54C573F265867F10031DF26 /* MoviesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54C573E265867F10031DF26 /* MoviesListView.swift */; };
 		A54C57422658697E0031DF26 /* AbilitiesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54C57412658697E0031DF26 /* AbilitiesListView.swift */; };
@@ -27,7 +26,6 @@
 
 /* Begin PBXFileReference section */
 		A54C573426582D980031DF26 /* MenuButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButtonView.swift; sourceTree = "<group>"; };
-		A54C5738265852D40031DF26 /* PokeBallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeBallView.swift; sourceTree = "<group>"; };
 		A54C573B265861670031DF26 /* PokedexListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexListView.swift; sourceTree = "<group>"; };
 		A54C573E265867F10031DF26 /* MoviesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesListView.swift; sourceTree = "<group>"; };
 		A54C57412658697E0031DF26 /* AbilitiesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbilitiesListView.swift; sourceTree = "<group>"; };
@@ -115,7 +113,6 @@
 				A54C574A265869B00031DF26 /* TypeChartListView.swift */,
 				A54C573B265861670031DF26 /* PokedexListView.swift */,
 				A54C574F26586D990031DF26 /* PokedexItemView.swift */,
-				A54C5738265852D40031DF26 /* PokeBallView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -216,7 +213,6 @@
 				A54C57422658697E0031DF26 /* AbilitiesListView.swift in Sources */,
 				A54C573F265867F10031DF26 /* MoviesListView.swift in Sources */,
 				A54C57592658BD170031DF26 /* Pokedex.json in Sources */,
-				A54C5739265852D40031DF26 /* PokeBallView.swift in Sources */,
 				A54C57532658A1040031DF26 /* PokedexViewController.swift in Sources */,
 				A5BC9F24265823F800CC714B /* PokedexApp.swift in Sources */,
 				A54C57452658698F0031DF26 /* ItemsListView.swift in Sources */,

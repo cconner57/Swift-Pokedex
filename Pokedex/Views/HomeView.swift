@@ -31,25 +31,25 @@ struct HomeView: View {
 				.background(Color(red: 245/255, green: 245/255, blue: 245/255))
 				.cornerRadius(30)
 				.padding(.horizontal)
-				LazyVGrid(columns: [GridItem(.fixed(170)), GridItem(.fixed(170))], content: {
+				LazyVGrid(columns: [GridItem(.adaptive(minimum: 150, maximum: 200))], content: {
 					NavigationLink(destination: PokedexListView()) {
 						MenuButtonView(title: "Pokedex", color: UIColor.pokeGreen)
-					}.padding(.trailing, 5)
+					}
 					NavigationLink(destination: MoviesListView()) {
 						MenuButtonView(title: "Movies", color: UIColor.pokeRed)
-					}.padding(.leading, 5)
+					}
 					NavigationLink(destination: AbilitiesListView()) {
 						MenuButtonView(title: "Abilities", color: UIColor.pokeBlue)
-					}.padding(.trailing, 5)
+					}
 					NavigationLink(destination: ItemsListView()) {
 						MenuButtonView(title: "Items", color: UIColor.pokeYellow)
-					}.padding(.leading, 5)
+					}
 					NavigationLink(destination: LocationListView()) {
 						MenuButtonView(title: "Location", color: UIColor.pokePurple)
-					}.padding(.trailing, 5)
+					}
 					NavigationLink(destination: TypeChartListView()) {
 						MenuButtonView(title: "Type Charts", color: UIColor.pokeBrown)
-					}.padding(.leading, 5)
+					}
 				})
 			}
 		}
