@@ -1,7 +1,7 @@
 import SwiftUI
 
 extension UIColor {
-	static let pokeGreen = UIColor(Color(red: 70/255, green: 215/255, blue: 171/255))
+	static let pokeGreen = UIColor(Color(red: 72/255, green: 208/255, blue: 176/255))
 	static let pokeRed = UIColor(Color(red: 250/255, green: 101/255, blue: 85/255))
 	static let pokeBlue = UIColor(Color(red: 66/255, green: 155/255, blue: 237/255))
 	static let pokeYellow = UIColor(Color(red: 246/255, green: 199/255, blue: 71/255))
@@ -14,9 +14,7 @@ struct HomeView: View {
 		NavigationView {
 			VStack (alignment: .leading){
 				VStack(alignment: .leading) {
-					Text("What Pokemon")
-						.bold()
-					Text("are you looking for?")
+					Text("What Pokemon \nare you looking for?")
 						.bold()
 				}
 				.padding(.horizontal)

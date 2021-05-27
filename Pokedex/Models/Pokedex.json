@@ -827,11 +827,11 @@
 		evolution: [
 			{
 				level: 16,
-				form: "Ivysaur"
+				form: "Nidorino"
 			},
 			{
-				level: 34,
-				form: "Venusaur♂"
+				stone: "Moon Stone",
+				form: "Nidoking"
 			}
 		]
 	},
@@ -857,8 +857,8 @@
 		}
 		evolution: [
 			{
-				level: 16,
-				form: "Ivysaur"
+				stone: "Moon Stone",
+				form: "NidoKing"
 			}
 		]
 	},
@@ -906,8 +906,8 @@
 		}
 		evolution: [
 			{
-				level: 16,
-				form: "Ivysaur"
+				stone: "Moon Stone",
+				form: "Clefable"
 			}
 		]
 	},
@@ -955,8 +955,8 @@
 		}
 		evolution: [
 			{
-				level: 16,
-				form: "Ivysaur"
+				stone: "Fire Stone",
+				form: "Ninetales"
 			}
 		]
 	},
@@ -1004,8 +1004,8 @@
 		}
 		evolution: [
 			{
-				level: 16,
-				form: "Ivysaur"
+				stone: "Moon Stone",
+				form: "Wigglytuff"
 			}
 		]
 	},
@@ -1053,8 +1053,8 @@
 		}
 		evolution: [
 			{
-				level: 16,
-				form: "Ivysaur"
+				level: 22,
+				form: "Goldbat"
 			}
 		]
 	},
@@ -1102,12 +1102,12 @@
 		}
 		evolution: [
 			{
-				level: 16,
-				form: "Ivysaur"
+				level: 21,
+				form: "Gloom"
 			},
 			{
-				level: 34,
-				form: "Venusaur♂"
+				stone: "Leaf Stone",
+				form: "Vileplume"
 			}
 		]
 	},
@@ -1133,8 +1133,8 @@
 		}
 		evolution: [
 			{
-				level: 16,
-				form: "Ivysaur"
+				stone: "Leaf Stone",
+				form: "Vileplume"
 			}
 		]
 	},
@@ -1182,8 +1182,8 @@
 		}
 		evolution: [
 			{
-				level: 16,
-				form: "Ivysaur"
+				level: 24,
+				form: "Parasect"
 			}
 		]
 	},
@@ -1231,8 +1231,8 @@
 		}
 		evolution: [
 			{
-				level: 16,
-				form: "Ivysaur"
+				level: 31,
+				form: "Venomoth"
 			}
 		]
 	},
@@ -1280,8 +1280,8 @@
 		}
 		evolution: [
 			{
-				level: 16,
-				form: "Ivysaur"
+				level: 26,
+				form: "Dugtrio"
 			}
 		]
 	},

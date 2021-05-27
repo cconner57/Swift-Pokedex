@@ -2,40 +2,59 @@ import SwiftUI
 
 struct PokedexItemView: View {
 	var title: String
+	var number: String
+	var image: String
+	var type1: String
+	var type2: String
 	var color: UIColor
 	
 	var body: some View {
-		ZStack {
-//			Image("pokeball")
-//				.resizable()
-//				.aspectRatio(contentMode: .fit)
-			HStack(alignment: .top){
-				VStack {
-					Text(title)
-						.font(.title3)
-						.bold()
-					Text("Grass")
-						.bold()
-						.padding()
-						.background(Color(red: 120/255, green: 212/255, blue: 185/255))
-						.cornerRadius(15)
-					Text("Poison")
-						.bold()
-						.padding()
-						.background(Color(red: 120/255, green: 212/255, blue: 185/255))
-						.cornerRadius(15)
-				}
-				Text("#001")
+		VStack(alignment: .leading) {
+			HStack {
+				Text(title)
+					.font(.subheadline)
 					.bold()
-					.offset(x: 10.0, y: -10.0)
 				Spacer()
+				Text(number)
+					.font(.headline)
+					.bold()
+			}
+			HStack {
+				VStack {
+					Text(type1)
+						.font(.footnote)
+						.padding(.all, 10)
+						.background(Color(red: 255/255, green: 255/255, blue: 255/255, opacity: 0.25))
+						.cornerRadius(15)
+						.clipShape(Capsule(), style: FillStyle())
+					Text(type2)
+						.font(.footnote)
+						.padding(.all, 10)
+						.background(Color(red: 255/255, green: 255/255, blue: 255/255, opacity: 0.25))
+						.cornerRadius(15)
+						.clipShape(Capsule(), style: FillStyle())
+					
+				}
+				.offset(x: -5.0)
+				Image(image)
+					.resizable()
+					.aspectRatio(contentMode: .fill)
+					.offset(x: 10.0, y: 10.0)
 			}
 		}
 		.padding()
+		.background(
+			Image("pokeball-2")
+				.resizable()
+				.frame(width: 140, height: 140)
+				.aspectRatio(contentMode: .fill)
+				.offset(x: 50.0, y: 50.0)
+		)
+		.frame(width: 180, height: 150)
 		.foregroundColor(.white)
-		.background(Color(red: 72/255, green: 208/255, blue: 176/255))
+		.background(Color(color))
 		.cornerRadius(15)
-		.padding(.bottom)
 		.shadow(color: Color(color), radius: 7, x: 0, y: 5)
+		.padding(.bottom)
 	}
 }
