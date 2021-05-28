@@ -33,7 +33,6 @@ struct PokedexItemView: View {
 						.background(Color(red: 255/255, green: 255/255, blue: 255/255, opacity: 0.25))
 						.cornerRadius(15)
 						.clipShape(Capsule(), style: FillStyle())
-					
 				}
 				.offset(x: -5.0)
 				Image(image)
@@ -44,7 +43,7 @@ struct PokedexItemView: View {
 		}
 		.padding()
 		.background(
-			Image("pokeball-2")
+			Image("pokeball-1")
 				.resizable()
 				.frame(width: 140, height: 140)
 				.aspectRatio(contentMode: .fill)

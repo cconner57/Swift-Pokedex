@@ -14,7 +14,7 @@ struct MenuButtonView: View {
 			Spacer()
 		}
 		.background(
-			Image("pokeball-2")
+			Image("pokeball-1")
 				.resizable()
 				.aspectRatio(contentMode: .fill)
 				.frame(width: 50, height: 100)
@@ -24,7 +24,7 @@ struct MenuButtonView: View {
 		.background(Color(color))
 		.cornerRadius(15)
 		.padding(.bottom)
-		.shadow(color: Color(color), radius: 8, x: 0, y: 8)
+		.shadow(color: Color(color), radius: 4, x: 0, y: 8)
 	}
 }
 
