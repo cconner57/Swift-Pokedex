@@ -2,11 +2,57 @@ import SwiftUI
 
 extension UIColor {
 	static let pokeGreen = UIColor(Color(red: 72/255, green: 208/255, blue: 176/255))
+	static let pokeDarkGreen = UIColor(Color(red: 167/255, green: 184/255, blue: 31/255))
 	static let pokeRed = UIColor(Color(red: 250/255, green: 101/255, blue: 85/255))
+	static let pokeDarkRed = UIColor(Color(red: 192/255, green: 48/255, blue: 40/255))
 	static let pokeBlue = UIColor(Color(red: 66/255, green: 155/255, blue: 237/255))
+	static let pokeLiteBlue = UIColor(Color(red: 103/255, green: 144/255, blue: 239/255))
 	static let pokeYellow = UIColor(Color(red: 246/255, green: 199/255, blue: 71/255))
 	static let pokePurple = UIColor(Color(red: 124/255, green: 83/255, blue: 140/255))
+	static let pokeLitePurple = UIColor(Color(red: 112/255, green: 56/255, blue: 248/255))
+	static let pokeDarkPurple = UIColor(Color(red: 111/255, green: 88/255, blue: 152/255))
 	static let pokeBrown = UIColor(Color(red: 177/255, green: 115/255, blue: 108/255))
+	static let pokeLiteBrown = UIColor(Color(red: 224/255, green: 191/255, blue: 104/255))
+	static let pokePink = UIColor(Color(red: 238/255, green: 153/255, blue: 171/255))
+	static let pokeWhite = UIColor(Color(red: 167/255, green: 168/255, blue: 119/255))
+	static let pokeMaroon = UIColor(Color(red: 159/255, green: 64/255, blue: 159/255))
+}
+
+func findColor(_ type: String) -> UIColor {
+	switch type {
+	case "Grass":
+		return UIColor.pokeGreen
+	case "Bug":
+		return UIColor.pokeDarkGreen
+	case "Fire":
+		return UIColor.pokeRed
+	case "Normal":
+		return UIColor.pokeWhite
+	case "Water":
+		return UIColor.pokeBlue
+	case "Ice":
+		return UIColor.pokeLiteBlue
+	case "Electric":
+		return UIColor.pokeYellow
+	case "Poison":
+		return UIColor.pokeMaroon
+	case "Psychic":
+		return UIColor.pokePurple
+	case "Ghost":
+		return UIColor.pokeDarkPurple
+	case "Fairy":
+		return UIColor.pokePink
+	case "Dragon":
+		return UIColor.pokeLitePurple
+	case "Rock":
+		return UIColor.pokeBrown
+	case "Ground":
+		return UIColor.pokeLiteBrown
+	case "Fighting":
+		return UIColor.pokeDarkRed
+	default:
+		return UIColor.pokeWhite
+	}
 }
 
 struct HomeView: View {
@@ -112,6 +158,5 @@ struct HomeView: View {
 struct HomeView_Previews: PreviewProvider {
 	static var previews: some View {
 		HomeView()
-//			.preferredColorScheme(.dark)
 	}
 }

@@ -1,44 +1,46 @@
 import SwiftUI
 
 struct PokedexItemView: View {
-	var title: String
+	var name: String
 	var number: String
-	var image: String
 	var type1: String
-	var type2: String
-	var color: UIColor
+	var type2: String?
 	
 	var body: some View {
 		VStack(alignment: .leading) {
 			HStack {
-				Text(title)
-					.font(.subheadline)
+				Text(name)
 					.bold()
+					.font(.subheadline)
 				Spacer()
 				Text(number)
-					.font(.headline)
 					.bold()
+					.font(.headline)
 			}
 			HStack {
 				VStack {
 					Text(type1)
+						.bold()
 						.font(.footnote)
-						.padding(.all, 10)
+						.padding(.all, 8)
 						.background(Color(red: 255/255, green: 255/255, blue: 255/255, opacity: 0.25))
 						.cornerRadius(15)
 						.clipShape(Capsule(), style: FillStyle())
-					Text(type2)
-						.font(.footnote)
-						.padding(.all, 10)
-						.background(Color(red: 255/255, green: 255/255, blue: 255/255, opacity: 0.25))
-						.cornerRadius(15)
-						.clipShape(Capsule(), style: FillStyle())
+					if type2 != nil {
+						Text(type2!)
+							.bold()
+							.font(.footnote)
+							.padding(.all, 8)
+							.background(Color(red: 255/255, green: 255/255, blue: 255/255, opacity: 0.25))
+							.cornerRadius(15)
+							.clipShape(Capsule(), style: FillStyle())
+					}
 				}
 				.offset(x: -5.0)
-				Image(image)
+				Image("\(name.lowercased())-sprite")
 					.resizable()
-					.aspectRatio(contentMode: .fill)
-					.offset(x: 10.0, y: 10.0)
+					.aspectRatio(contentMode: .fit)
+					.offset(x: 5.0, y: 10.0)
 			}
 		}
 		.padding()
@@ -51,9 +53,9 @@ struct PokedexItemView: View {
 		)
 		.frame(width: 180, height: 150)
 		.foregroundColor(.white)
-		.background(Color(color))
+		.background(Color(findColor(type1)))
 		.cornerRadius(15)
-		.shadow(color: Color(color), radius: 7, x: 0, y: 5)
+		.shadow(color: Color(findColor(type1)), radius: 7, x: 0, y: 5)
 		.padding(.bottom)
 	}
 }
