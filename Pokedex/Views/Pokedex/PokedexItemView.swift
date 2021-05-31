@@ -24,31 +24,27 @@ struct PokedexItemView: View {
 						.font(.footnote)
 						.padding(.all, 8)
 						.background(Color(red: 255/255, green: 255/255, blue: 255/255, opacity: 0.25))
-						.cornerRadius(15)
-						.clipShape(Capsule(), style: FillStyle())
+						.clipShape(Capsule())
+						
 					if type2 != nil {
 						Text(type2!)
 							.bold()
 							.font(.footnote)
 							.padding(.all, 8)
 							.background(Color(red: 255/255, green: 255/255, blue: 255/255, opacity: 0.25))
-							.cornerRadius(15)
-							.clipShape(Capsule(), style: FillStyle())
+							.clipShape(Capsule())
 					}
 				}
 				.offset(x: -5.0)
 				Image("\(name.lowercased())-sprite")
 					.resizable()
-					.aspectRatio(contentMode: .fit)
-					.offset(x: 5.0, y: 10.0)
 			}
 		}
 		.padding()
 		.background(
 			Image("pokeball-1")
 				.resizable()
-				.frame(width: 140, height: 140)
-				.aspectRatio(contentMode: .fill)
+				.aspectRatio(contentMode: .fit)
 				.offset(x: 50.0, y: 50.0)
 		)
 		.frame(width: 180, height: 150)

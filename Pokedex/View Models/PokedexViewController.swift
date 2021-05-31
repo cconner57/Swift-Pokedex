@@ -1,5 +1,42 @@
-//import Foundation
-//
+import SwiftUI
+
+func findColor(_ type: String) -> UIColor {
+	switch type {
+	case "Grass":
+		return UIColor.pokeGreen
+	case "Bug":
+		return UIColor.pokeDarkGreen
+	case "Fire":
+		return UIColor.pokeRed
+	case "Normal":
+		return UIColor.pokeWhite
+	case "Water":
+		return UIColor.pokeBlue
+	case "Ice":
+		return UIColor.pokeLiteBlue
+	case "Electric":
+		return UIColor.pokeYellow
+	case "Poison":
+		return UIColor.pokeMaroon
+	case "Psychic":
+		return UIColor.pokePurple
+	case "Ghost":
+		return UIColor.pokeDarkPurple
+	case "Fairy":
+		return UIColor.pokePink
+	case "Dragon":
+		return UIColor.pokeLitePurple
+	case "Rock":
+		return UIColor.pokeBrown
+	case "Ground":
+		return UIColor.pokeLiteBrown
+	case "Fighting":
+		return UIColor.pokeDarkRed
+	default:
+		return UIColor.pokeWhite
+	}
+}
+
 //struct pokemonData {
 //	let url = URL(string: "https://jsonplaceholder.typicode.com/todos/1")! //change the url
 //

@@ -103,9 +103,3 @@ struct PokedexItemDetail: View {
 		}
 	}
 }
-
-struct PokedexItemView_Previews: PreviewProvider {
-	static var previews: some View {
-		PokedexItemDetail(name: "Bulbasaur", number: "#001", type1: "Grass", type2: "Poison", evolution: true)
-	}
-}

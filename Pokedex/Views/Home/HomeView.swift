@@ -18,43 +18,6 @@ extension UIColor {
 	static let pokeMaroon = UIColor(Color(red: 159/255, green: 64/255, blue: 159/255))
 }
 
-func findColor(_ type: String) -> UIColor {
-	switch type {
-	case "Grass":
-		return UIColor.pokeGreen
-	case "Bug":
-		return UIColor.pokeDarkGreen
-	case "Fire":
-		return UIColor.pokeRed
-	case "Normal":
-		return UIColor.pokeWhite
-	case "Water":
-		return UIColor.pokeBlue
-	case "Ice":
-		return UIColor.pokeLiteBlue
-	case "Electric":
-		return UIColor.pokeYellow
-	case "Poison":
-		return UIColor.pokeMaroon
-	case "Psychic":
-		return UIColor.pokePurple
-	case "Ghost":
-		return UIColor.pokeDarkPurple
-	case "Fairy":
-		return UIColor.pokePink
-	case "Dragon":
-		return UIColor.pokeLitePurple
-	case "Rock":
-		return UIColor.pokeBrown
-	case "Ground":
-		return UIColor.pokeLiteBrown
-	case "Fighting":
-		return UIColor.pokeDarkRed
-	default:
-		return UIColor.pokeWhite
-	}
-}
-
 struct HomeView: View {
 	var body: some View {
 		NavigationView {
