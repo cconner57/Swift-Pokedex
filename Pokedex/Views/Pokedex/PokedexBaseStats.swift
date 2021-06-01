@@ -1,13 +1,7 @@
 import SwiftUI
 
 struct PokedexBaseStats: View {
-	var hp: String
-	var attack: String
-	var defense: String
-	var spAttack: String
-	var spDefense: String
-	var speed: String
-	var total: String
+	var baseStats: BaseState
 	
     var body: some View {
 		ScrollView {
@@ -24,37 +18,37 @@ struct PokedexBaseStats: View {
 				.foregroundColor(.gray)
 				.font(.footnote)
 				VStack(alignment: .leading, spacing: 10) {
-					Text(hp)
+					Text(String(baseStats.hp))
 						.bold()
-					Text(attack)
+					Text(String(baseStats.attack))
 						.bold()
-					Text(defense)
+					Text(String(baseStats.defense))
 						.bold()
-					Text(spAttack)
+					Text(String(baseStats.spAttack))
 						.bold()
-					Text(spDefense)
+					Text(String(baseStats.spDefense))
 						.bold()
-					Text(speed)
+					Text(String(baseStats.speed))
 						.bold()
-					Text(total)
+					Text(String(baseStats.total))
 						.bold()
 				}
 				.font(.footnote)
 				VStack(spacing: 22) {
-					ProgressView(value: 45, total: 100)
-						.progressViewStyle(LinearProgressViewStyle(tint: Int(hp)! >= 50 ? .green : .red))
-					ProgressView(value: 49, total: 100)
-						.progressViewStyle(LinearProgressViewStyle(tint: Int(attack)! >= 50 ? .green : .red))
-					ProgressView(value: 49, total: 100)
-						.progressViewStyle(LinearProgressViewStyle(tint: Int(defense)! >= 50 ? .green : .red))
-					ProgressView(value: 65, total: 100)
-						.progressViewStyle(LinearProgressViewStyle(tint: Int(spAttack)! >= 50 ? .green : .red))
-					ProgressView(value: 65, total: 100)
-						.progressViewStyle(LinearProgressViewStyle(tint: Int(spDefense)! >= 50 ? .green : .red))
-					ProgressView(value: 45, total: 100)
-						.progressViewStyle(LinearProgressViewStyle(tint: Int(speed)! >= 50 ? .green : .red))
-					ProgressView(value: 318, total: 600)
-						.progressViewStyle(LinearProgressViewStyle(tint: Int(total)! >= 300 ? .green : .red))
+					ProgressView(value: Float(baseStats.hp), total: 200)
+						.progressViewStyle(LinearProgressViewStyle(tint: baseStats.hp >= 100 ? .green : .red))
+					ProgressView(value: Float(baseStats.attack), total: 200)
+						.progressViewStyle(LinearProgressViewStyle(tint: baseStats.attack >= 100 ? .green : .red))
+					ProgressView(value: Float(baseStats.defense), total: 200)
+						.progressViewStyle(LinearProgressViewStyle(tint: baseStats.defense >= 100 ? .green : .red))
+					ProgressView(value: Float(baseStats.spAttack), total: 200)
+						.progressViewStyle(LinearProgressViewStyle(tint: baseStats.spAttack >= 100 ? .green : .red))
+					ProgressView(value: Float(baseStats.spDefense), total: 200)
+						.progressViewStyle(LinearProgressViewStyle(tint: baseStats.spDefense >= 100 ? .green : .red))
+					ProgressView(value: Float(baseStats.speed), total: 200)
+						.progressViewStyle(LinearProgressViewStyle(tint: baseStats.speed >= 100 ? .green : .red))
+					ProgressView(value: Float(baseStats.total), total: 1200)
+						.progressViewStyle(LinearProgressViewStyle(tint: baseStats.total >= 600 ? .green : .red))
 				}
 			}
 			VStack(alignment: .leading, spacing: 10) {

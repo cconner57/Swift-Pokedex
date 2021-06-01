@@ -1,27 +1,22 @@
 import Foundation
 
-var pokedexEntries: PokemonItem = load("Pokedex.json")
-
-func load<T: Decodable>(_ filename: String) -> T {
-	let data: Data
-
-	guard let file = Bundle.main.url(forResource: filename, withExtension: nil)
-	else {
-		fatalError("Couldn't find \(filename) in main bundle.")
+func readJson() -> [PokemonItem]? {
+	guard let file = Bundle.main.path(forResource: "Pokedex", ofType: "json") else {
+		print("Failed")
+		return nil
 	}
-
-	do {
-		data = try Data(contentsOf: file)
-	} catch {
-		fatalError("Couldn't load \(filename) from main bundle:\n\(error)")
-	}
-
-	do {
-		let decoder = JSONDecoder()
-		print(pokedexEntries)
-		return try decoder.decode(T.self, from: data)
-	} catch {
-		fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")
-	}
-	
+		do {
+			let data = try Data(contentsOf: URL(fileURLWithPath: file), options: .mappedIfSafe)
+			let decoder = JSONDecoder()
+			do {
+				let PokedexModel = try decoder.decode([PokemonItem].self, from: data)
+				return PokedexModel
+			}catch{
+				print(error)
+				return nil
+			}
+		} catch {
+			print(error)
+			return nil
+		}
 }

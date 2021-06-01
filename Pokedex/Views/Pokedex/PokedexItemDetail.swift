@@ -1,11 +1,7 @@
 import SwiftUI
 
 struct PokedexItemDetail: View {
-	var name: String
-	var number: String
-	var type1: String
-	var type2: String?
-	var evolution: Bool
+	var pokemon: PokemonItem
 	
 	@State private var selectedMenu = 0
 	
@@ -14,25 +10,18 @@ struct PokedexItemDetail: View {
 		VStack {
 			VStack {
 				HStack {
-					Text(name)
+					Text(pokemon.name)
 						.font(.largeTitle)
 						.bold()
 					Spacer()
-					Text(number)
+					Text("#\(pokemon.num)")
 						.font(.title2)
 						.bold()
 				}
 				.padding(.bottom, 1)
 				HStack {
-					Text(type1)
-						.font(.footnote)
-						.bold()
-						.padding(.all, 10)
-						.background(Color(red: 255/255, green: 255/255, blue: 255/255, opacity: 0.25))
-						.cornerRadius(15)
-						.clipShape(Capsule(), style: FillStyle())
-					if type2 != nil {
-						Text(type2!)
+					ForEach(pokemon.type, id: \.self) { type in
+						Text(type)
 							.font(.footnote)
 							.bold()
 							.padding(.all, 10)
@@ -41,10 +30,10 @@ struct PokedexItemDetail: View {
 							.clipShape(Capsule(), style: FillStyle())
 					}
 					Spacer()
-					Text("Seed Pokemon")
+					Text(pokemon.species)
 						.font(.title3)
 				}
-				Image(name.lowercased())
+				Image(pokemon.name.lowercased())
 					.resizable()
 					.frame(width: 250, height: 250)
 			}
@@ -54,10 +43,10 @@ struct PokedexItemDetail: View {
 				Image("pokeball-1")
 					.resizable()
 					.aspectRatio(contentMode: .fit)
-					.frame(width: 300)
+					.frame(width: 275)
 					.offset(y: 50)
 			)
-			.background(Color(findColor(type1)))
+			.background(Color(findColor(pokemon.type.first!)))
 			.foregroundColor(.white)
 			VStack {
 				Picker(selection: $selectedMenu, label: Text("Picker"), content: {
@@ -69,9 +58,9 @@ struct PokedexItemDetail: View {
 				.pickerStyle(SegmentedPickerStyle())
 				.padding()
 				if selectedMenu == 0 {
-					PokedexAbout()
+					PokedexAbout(about: pokemon.about, height: pokemon.height, weight: pokemon.weight, gender: pokemon.gender!, eggGroup: pokemon.eggGroup, eggCycle: pokemon.eggCycle)
 				} else if selectedMenu == 1 {
-					PokedexBaseStats(hp: "45", attack: "49", defense: "49", spAttack: "65", spDefense: "65", speed: "45", total: "318")
+					PokedexBaseStats(baseStats: pokemon.baseState)
 				} else if selectedMenu == 2 {
 					ScrollView {
 						VStack(alignment: .leading) {
@@ -80,10 +69,11 @@ struct PokedexItemDetail: View {
 									.bold()
 								Spacer()
 							}
-							if evolution {
-								PokedexEvolution(image1: name.lowercased(), name1: name, lvl: "16", image2: "ivysaur", name2: "Ivysaur")
-								Divider()
-								PokedexEvolution(image1: "ivysaur", name1: "Ivysaur", lvl: "34", image2: "venusaur", name2: "Venusaur")
+							if pokemon.evolution.first != nil {
+								ForEach(pokemon.evolution, id: \.self) { evolve in
+									PokedexEvolution(preEvolveImage: evolve.evolveFrom?.lowercased(), preEvolveName: evolve.evolveFrom, level: evolve.level, stone: evolve.stone, trade: evolve.trade, postEvovleImage: evolve.evolveTo?.lowercased(), postEvovleName: evolve.evolveTo)
+									Divider()
+								}
 							} else {
 								HStack {
 									Spacer()

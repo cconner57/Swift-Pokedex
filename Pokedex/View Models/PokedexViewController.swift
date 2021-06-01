@@ -37,6 +37,31 @@ func findColor(_ type: String) -> UIColor {
 	}
 }
 
+func findStone(_ stone: String) -> String {
+	switch stone {
+	case "Dawn stone":
+		return "dawn-stone"
+	case "Dusk stone":
+		return "dusk-stone"
+	case "Fire stone":
+		return "fire-stone"
+	case "Ice stone":
+		return "ice-stone"
+	case "Leaf stone":
+		return "leaf-stone"
+	case "Moon stone":
+		return "moon-stone"
+	case "Sun stone":
+		return "sun-stone"
+	case "Thunder stone":
+		return "thunder-stone"
+	case "Water stone":
+		return "water-stone"
+	default:
+		return "shiny-stone"
+	}
+}
+
 //struct pokemonData {
 //	let url = URL(string: "https://jsonplaceholder.typicode.com/todos/1")! //change the url
 //

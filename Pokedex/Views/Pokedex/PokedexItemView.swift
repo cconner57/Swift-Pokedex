@@ -3,8 +3,7 @@ import SwiftUI
 struct PokedexItemView: View {
 	var name: String
 	var number: String
-	var type1: String
-	var type2: String?
+	var type: [String]
 	
 	var body: some View {
 		VStack(alignment: .leading) {
@@ -13,21 +12,14 @@ struct PokedexItemView: View {
 					.bold()
 					.font(.subheadline)
 				Spacer()
-				Text(number)
+				Text("#\(number)")
 					.bold()
 					.font(.headline)
 			}
 			HStack {
 				VStack {
-					Text(type1)
-						.bold()
-						.font(.footnote)
-						.padding(.all, 8)
-						.background(Color(red: 255/255, green: 255/255, blue: 255/255, opacity: 0.25))
-						.clipShape(Capsule())
-						
-					if type2 != nil {
-						Text(type2!)
+					ForEach(type, id: \.self) { type in
+						Text(type)
 							.bold()
 							.font(.footnote)
 							.padding(.all, 8)
@@ -49,9 +41,9 @@ struct PokedexItemView: View {
 		)
 		.frame(width: 180, height: 150)
 		.foregroundColor(.white)
-		.background(Color(findColor(type1)))
+		.background(Color(findColor(type[0])))
 		.cornerRadius(15)
-		.shadow(color: Color(findColor(type1)), radius: 7, x: 0, y: 5)
+		.shadow(color: Color(findColor(type[0])), radius: 7, x: 0, y: 5)
 		.padding(.bottom)
 	}
 }

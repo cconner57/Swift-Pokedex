@@ -1,21 +1,28 @@
 import SwiftUI
 
 struct PokedexAbout: View {
-    var body: some View {
+	var about: String
+	var height: String
+	var weight: String
+	var gender: [String]?
+	var eggGroup: String
+	var eggCycle: String
+	
+	var body: some View {
 		ScrollView {
-			Text("Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.")
+			Text(about)
 				.font(.footnote)
 			HStack(spacing: 40) {
 				VStack(alignment: .leading, spacing: 5) {
 					Text("Height")
 						.bold()
-					Text("2'3.6\"(0.70 cm)")
+					Text(height)
 				}
 				.font(.footnote)
 				VStack(alignment: .leading, spacing: 5) {
 					Text("Weight")
 						.bold()
-					Text("15.2 lbs (6.9 kg)")
+					Text(weight)
 				}
 				.font(.footnote)
 			}
@@ -37,25 +44,31 @@ struct PokedexAbout: View {
 					}
 					VStack(alignment: .leading, spacing: 5) {
 						HStack {
-							HStack(spacing: 0) {
-								Text("♂")
-									.foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
-								Text("87.5%")
+							if gender?.first != nil {
+								HStack(spacing: 0) {
+									Text("♂")
+										.foregroundColor(.blue)
+									Text(gender![0])
+								}
+								HStack(spacing: 0) {
+									Text("♀")
+										.foregroundColor(.pink)
+									Text(gender![1])
+								}
+							} else {
+								HStack(spacing: 0) {
+									Text("No Known Gender")
+								}
 							}
-							HStack(spacing: 0) {
-								Text("♀")
-									.foregroundColor(.pink)
-								Text("12.5%")
-							}
+							Text(eggGroup)
+							Text(eggCycle)
 						}
-						Text("Monster")
-						Text("Grass")
+						Spacer()
 					}
-					Spacer()
+					.font(.footnote)
 				}
-				.font(.footnote)
 			}
+			.padding(.horizontal)
 		}
-		.padding(.horizontal)
-    }
+	}
 }

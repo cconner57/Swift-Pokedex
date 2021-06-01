@@ -1,46 +1,40 @@
 import Foundation
 
-struct PokedexData: Codable {
+struct PokemonData: Codable {
 	var results: [PokemonItem]
-
 }
 
-struct PokemonItem: Hashable, Codable {
+struct PokemonItem: Codable {
 	var num: String
 	var name: String
 	var type: [String]
-//	var species: String
-//	var image: String
-//	var about: String
-//	var height: String
-//	var weight: String
-//	var gender: [String]
-//	var eggGroup: String
-//	var eggCycle: String
-//	var baseState: BaseStats
-//	var evolution: [Evolutions]?
+	var species: String
+	var about: String
+	var height: String
+	var weight: String
+	var gender: [String]?
+	var eggGroup: String
+	var eggCycle: String
+	var baseState: BaseState
+	var evolution: [Evolutions]
 }
 
-//struct BaseStats: Hashable, Codable {
-//	var hp: Int
-//	var attack: Int
-//	var defense: Int
-//	var spAttack: Int
-//	var spDefense: Int
-//	var speed: Int
-//}
-//
-//struct Evolutions: Hashable, Codable {
-//	var level: Int?
-//	var stone: String?
-//	var form: String?
-//}
+struct BaseState: Codable {
+	var hp: Int
+	var attack: Int
+	var defense: Int
+	var spAttack: Int
+	var spDefense: Int
+	var speed: Int
+	var total: Int
+}
 
-struct TestItem: Codable {
-	var num: String
-	var name: String
-	var type1: String
-	var type2: String?
+struct Evolutions: Codable, Hashable {
+	var evolveFrom: String?
+	var level: Int?
+	var stone: String?
+	var trade: Bool?
+	var evolveTo: String?
 }
 
 struct TestMoves: Codable {
