@@ -2,6 +2,7 @@ import SwiftUI
 
 struct PokedexBaseStats: View {
 	var baseStats: BaseState
+	var name: String
 	
     var body: some View {
 		ScrollView {
@@ -54,7 +55,7 @@ struct PokedexBaseStats: View {
 			VStack(alignment: .leading, spacing: 10) {
 				Text("Type defenses")
 					.bold()
-				Text("The effectiveness of each type on Bulbasaur")
+				Text("The effectiveness of each type on \(name)")
 			}
 			.padding(.vertical)
 			.font(.subheadline)

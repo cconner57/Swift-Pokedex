@@ -42,7 +42,7 @@ struct PokedexAbout: View {
 						Text("Egg Groups")
 						Text("Egg Cycle")
 					}
-					VStack(alignment: .leading, spacing: 5) {
+					VStack(alignment: .center, spacing: 5) {
 						HStack {
 							if gender?.first != nil {
 								HStack(spacing: 0) {
@@ -60,15 +60,16 @@ struct PokedexAbout: View {
 									Text("No Known Gender")
 								}
 							}
-							Text(eggGroup)
-							Text(eggCycle)
 						}
-						Spacer()
+						Text(eggGroup)
+						Text(eggCycle)
 					}
-					.font(.footnote)
+					.font(.callout)
+					.frame(width: 180)
+					Spacer()
 				}
 			}
-			.padding(.horizontal)
 		}
+		.padding(.horizontal)
 	}
 }

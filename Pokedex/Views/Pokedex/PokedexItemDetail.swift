@@ -60,7 +60,7 @@ struct PokedexItemDetail: View {
 				if selectedMenu == 0 {
 					PokedexAbout(about: pokemon.about, height: pokemon.height, weight: pokemon.weight, gender: pokemon.gender!, eggGroup: pokemon.eggGroup, eggCycle: pokemon.eggCycle)
 				} else if selectedMenu == 1 {
-					PokedexBaseStats(baseStats: pokemon.baseState)
+					PokedexBaseStats(baseStats: pokemon.baseState, name: pokemon.name)
 				} else if selectedMenu == 2 {
 					ScrollView {
 						VStack(alignment: .leading) {

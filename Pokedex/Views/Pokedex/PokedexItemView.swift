@@ -37,7 +37,7 @@ struct PokedexItemView: View {
 			Image("pokeball-1")
 				.resizable()
 				.aspectRatio(contentMode: .fit)
-				.offset(x: 50.0, y: 50.0)
+				.offset(x: 60.0, y: 45.0)
 		)
 		.frame(width: 180, height: 150)
 		.foregroundColor(.white)
