@@ -1,8 +1,13 @@
 import SwiftUI
 
 struct PokedexListView: View {
+	var pokemon: [PokemonItem] = readPokedexJson()!
 	
-	var pokemon: [PokemonItem] = readJson()!
+	@State private var showFavorite = false
+	@State private var showType = FilterPokemonType.all
+	@State private var showGens = FilterPokemonGen.all
+	
+	@StateObject var genSelected = PokedexObject()
 	
 	var body: some View {
 		VStack {
@@ -15,17 +20,18 @@ struct PokedexListView: View {
 							}
 						}
 					})
+					.animation(.default)
 				}
 				.padding(.top)
-				PokedexFilter()
+				PokedexFilter(genSelected: genSelected, favorite: $showFavorite, type: $showType, gens: $showGens)
 					.animation(.default)
 			}
 		}
 		.navigationBarTitle("Pokedex", displayMode: .inline)
 		.toolbar {
 			ToolbarItem(placement: .principal) {
-				Text("Pokemon")
-					.font(.title)
+				Text("National Pokedex")
+					.font(.title2)
 					.bold()
 			}
 		}

@@ -44,3 +44,11 @@ struct TestMoves: Codable {
 	var power: String
 	var accuracy: String
 }
+
+enum FilterPokemonType {
+	case normal, fire, water, grass, electric, ice, fighting, poison, ground, flying, psychic, bug, rock, ghost, dark, dragon, steel, fairy, all
+}
+
+enum FilterPokemonGen {
+	case gen1, gen2, gen3, gen4, gen5, gen6, gen7, gen8, all
+}

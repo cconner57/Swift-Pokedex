@@ -1,5 +1,13 @@
 import SwiftUI
 
+class PokedexObject: ObservableObject {
+//	@Published var favPokemon:
+//	@Published var pokemonTypes: String
+	@Published var generationID: UUID?
+	@Published var pokemonSearch: String?
+	
+}
+
 func findColor(_ type: String) -> UIColor {
 	switch type {
 	case "Grass":

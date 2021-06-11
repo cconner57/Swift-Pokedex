@@ -32,6 +32,8 @@ struct HomeView: View {
 						Image(systemName: "magnifyingglass")
 							.font(.title2)
 						TextField("Search Pokemon, Move, Ability, etc.", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
+							.disableAutocorrection(true)
+							.autocapitalization(.none)
 							.font(.headline)
 					}
 					.padding()
@@ -42,7 +44,7 @@ struct HomeView: View {
 						NavigationLink(destination: PokedexListView()) {
 							MenuButtonView(title: "Pokedex", color: UIColor.pokeGreen)
 						}
-						NavigationLink(destination: MoviesListView()) {
+						NavigationLink(destination: MovieListView()) {
 							MenuButtonView(title: "Movies", color: UIColor.pokeRed)
 						}
 						NavigationLink(destination: AbilitiesListView()) {
