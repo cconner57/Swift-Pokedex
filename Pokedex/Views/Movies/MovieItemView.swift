@@ -25,10 +25,12 @@ struct MovieItemView: View {
 			}
 			.foregroundColor(.white)
 			.multilineTextAlignment(.center)
+			.frame(width: 180, height: 140)
 			.padding()
 		}
-		.background(Color(.lightGray))
-		.cornerRadius(9)
-		.padding()
+		.background(Color.blue)
+		.cornerRadius(10)
+		.shadow(color: .gray, radius: 5)
+		.padding(.horizontal)
 	}
 }

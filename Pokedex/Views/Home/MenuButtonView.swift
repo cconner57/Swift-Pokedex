@@ -24,7 +24,7 @@ struct MenuButtonView: View {
 		.background(Color(color))
 		.cornerRadius(15)
 		.padding(.bottom)
-		.shadow(color: Color(color), radius: 4, x: 0, y: 8)
+		.shadow(color: Color(color).opacity(0.45), radius: 3, x: 0, y: 7)
 	}
 }
 

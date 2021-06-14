@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5293D9F2676F6F9003426CE /* PokedexListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5293D9E2676F6F9003426CE /* PokedexListItemView.swift */; };
 		A5352793266ADD5100C14203 /* MovieItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5352792266ADD5100C14203 /* MovieItemView.swift */; };
 		A5352795266ADE5300C14203 /* Movies.json in Resources */ = {isa = PBXBuildFile; fileRef = A5352794266ADE5300C14203 /* Movies.json */; };
 		A5352797266B04B300C14203 /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5352796266B04B300C14203 /* Movies.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A5293D9E2676F6F9003426CE /* PokedexListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexListItemView.swift; sourceTree = "<group>"; };
 		A5352792266ADD5100C14203 /* MovieItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieItemView.swift; sourceTree = "<group>"; };
 		A5352794266ADE5300C14203 /* Movies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Movies.json; sourceTree = "<group>"; };
 		A5352796266B04B300C14203 /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				A5C77821266318EB0096FBD6 /* PokedexEvolution.swift */,
 				A5C7781E266318C30096FBD6 /* PokedexBaseStats.swift */,
 				A5C7781B266318800096FBD6 /* PokedexAbout.swift */,
+				A5293D9E2676F6F9003426CE /* PokedexListItemView.swift */,
 			);
 			path = Pokedex;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				A5C77822266318EB0096FBD6 /* PokedexEvolution.swift in Sources */,
 				A5352793266ADD5100C14203 /* MovieItemView.swift in Sources */,
 				A5CD9DA5266052C60050161B /* PokedexItemDetail.swift in Sources */,
+				A5293D9F2676F6F9003426CE /* PokedexListItemView.swift in Sources */,
 				A54C57532658A1040031DF26 /* PokedexViewModel.swift in Sources */,
 				A54A397B2666ABD8008A894A /* PokedexFilter.swift in Sources */,
 				A5BC9F24265823F800CC714B /* PokedexApp.swift in Sources */,
@@ -445,6 +449,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Pokedex/Preview Content\"";
+				DEVELOPMENT_TEAM = XA3V332WNJ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Pokedex/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -466,6 +471,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Pokedex/Preview Content\"";
+				DEVELOPMENT_TEAM = XA3V332WNJ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Pokedex/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;

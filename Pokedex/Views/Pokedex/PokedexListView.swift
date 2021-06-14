@@ -3,6 +3,8 @@ import SwiftUI
 struct PokedexListView: View {
 	var pokemon: [PokemonItem] = readPokedexJson()!
 	
+	@State private var listView = false
+	
 	@State private var showFavorite = false
 	@State private var showType = FilterPokemonType.all
 	@State private var showGens = FilterPokemonGen.all
@@ -13,26 +15,43 @@ struct PokedexListView: View {
 		VStack {
 			ZStack {
 				ScrollView {
-					LazyVGrid(columns: [GridItem(.adaptive(minimum: 150, maximum: 185))], content: {
-						ForEach(pokemon, id: \.num) { pokemon in
-							NavigationLink(destination: PokedexItemDetail(pokemon: pokemon)) {
-								PokedexItemView(name: pokemon.name, number: pokemon.num, type: pokemon.type)
+					if !listView {
+						LazyVGrid(columns: [GridItem(.adaptive(minimum: 150, maximum: 185))], content: {
+							ForEach(pokemon, id: \.num) { pokemon in
+								NavigationLink(destination: PokedexItemDetail(pokemon: pokemon)) {
+									PokedexItemView(name: pokemon.name, number: pokemon.num, type: pokemon.type)
+								}
 							}
-						}
-					})
-					.animation(.default)
+						})
+						.animation(.default)
+					} else {
+						LazyVStack(alignment: .center, spacing: 25, pinnedViews: /*@START_MENU_TOKEN@*/[]/*@END_MENU_TOKEN@*/, content: {
+							ForEach(pokemon, id: \.num) { pokemon in
+								NavigationLink(destination: PokedexItemDetail(pokemon: pokemon)) {
+									PokedexListItemView(name: pokemon.name, number: pokemon.num, type: pokemon.type)
+								}
+							}
+						})
+					}
 				}
 				.padding(.top)
 				PokedexFilter(genSelected: genSelected, favorite: $showFavorite, type: $showType, gens: $showGens)
 					.animation(.default)
 			}
 		}
-		.navigationBarTitle("Pokedex", displayMode: .inline)
+		.navigationBarTitleDisplayMode(.inline)
 		.toolbar {
 			ToolbarItem(placement: .principal) {
 				Text("National Pokedex")
 					.font(.title2)
 					.bold()
+			}
+			ToolbarItem(placement: .navigationBarTrailing) {
+				Button(action: {
+					listView.toggle()
+				}) {
+					Image(systemName: listView ? "square.grid.2x2" : "list.bullet")
+				}
 			}
 		}
 	}

@@ -6,14 +6,16 @@ struct MovieListView: View {
 	var body: some View {
 		VStack {
 			ScrollView {
-				LazyVStack {
+				LazyVStack(spacing: 25) {
 					ForEach(movies, id: \.number) { movie in
 						NavigationLink(destination: MovieDetailView(movie: movie)) {
 							MovieItemView(title: movie.aTitle, image: movie.poster, releaseDate: movie.aReleaseDate, distributor: movie.aDistributor)
 						}
 					}
 				}
+				.padding(.vertical)
 			}
-		}.navigationBarTitle("Pokemon Movies", displayMode: .inline)
+		}
+		.navigationBarTitle("Pokemon Movies", displayMode: .inline)
 	}
 }

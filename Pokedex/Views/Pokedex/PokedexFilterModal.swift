@@ -65,18 +65,19 @@ struct PokedexFilterModal: View {
 					.font(.title)
 					.padding(.bottom)
 				if optionSelected == "types" {
-					LazyVGrid(columns: [GridItem(.adaptive(minimum: 100, maximum: 120))], content: {
+					LazyVGrid(columns: [GridItem(.adaptive(minimum: 80, maximum: 120))], content: {
 						ForEach(pokemonTypes, id: \.self) { type in
 							PokemonTypeItem(type: type)
 							//Fix shadow error
 							//								.shadow(color: genSelected.generationID == gen.id ? Color.blue : Color.gray, radius: 10, x: 0, y: genSelected.generationID == gen.id ? 0 : 5)
-							//								.onTapGesture {
-							//									genSelected.generationID = gen.id
-							//									filterButtonPressed = false
-							//									optionSelected = ""
-							//								}
+								.onTapGesture {
+//									genSelected.generationID = gen.id
+									filterButtonPressed = false
+									optionSelected = ""
+								}
 						}
 					})
+					.padding(.horizontal)
 				} else if optionSelected == "gens" {
 					LazyVGrid(columns: [GridItem(.adaptive(minimum: 150, maximum: 175))], content: {
 						ForEach(starterPokemon) { gen in
@@ -132,16 +133,14 @@ struct PokemonTypeItem: View {
 			Image(type)
 				.resizable()
 				.scaledToFit()
-				.shadow(color: .gray, radius: 10, x: 0.0, y: 0.0)
-			Text(type.capitalized)
-				.font(.callout)
-				.bold()
 		}
-		.frame(width: 90, height: 20, alignment: .leading)
-		.padding()
-		.background(Color(findColor(type.capitalized)))
-		.cornerRadius(10)
+		.overlay(
+					RoundedRectangle(cornerRadius: 30)
+						.stroke(Color.gray, lineWidth: 1)
+				)
+		.frame(width: 55, height: 55, alignment: .leading)
 		.shadow(color: .gray, radius: 10, x: 0.0, y: 0.0)
+		.padding(.bottom)
 	}
 }
 

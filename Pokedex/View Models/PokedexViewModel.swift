@@ -11,37 +11,37 @@ class PokedexObject: ObservableObject {
 func findColor(_ type: String) -> UIColor {
 	switch type {
 	case "Grass":
-		return UIColor.pokeGreen
+		return UIColor(named: "pokeGreen")!
 	case "Bug":
-		return UIColor.pokeDarkGreen
+		return UIColor(named: "pokeDarkGreen")!
 	case "Fire":
-		return UIColor.pokeRed
+		return UIColor(named: "pokeRed")!
 	case "Normal":
-		return UIColor.pokeWhite
+		return UIColor(named: "pokeWhite")!
 	case "Water":
-		return UIColor.pokeBlue
+		return UIColor(named: "pokeBlue")!
 	case "Ice":
-		return UIColor.pokeLiteBlue
+		return UIColor(named: "pokeLiteBlue")!
 	case "Electric":
-		return UIColor.pokeYellow
+		return UIColor(named: "pokeYellow")!
 	case "Poison":
-		return UIColor.pokeMaroon
+		return UIColor(named: "pokeMaroon")!
 	case "Psychic":
-		return UIColor.pokePurple
+		return UIColor(named: "pokePurple")!
 	case "Ghost":
-		return UIColor.pokeDarkPurple
+		return UIColor(named: "pokeDarkPurple")!
 	case "Fairy":
-		return UIColor.pokePink
+		return UIColor(named: "pokePink")!
 	case "Dragon":
-		return UIColor.pokeLitePurple
+		return UIColor(named: "pokeLitePurple")!
 	case "Rock":
-		return UIColor.pokeBrown
+		return UIColor(named: "pokeBrown")!
 	case "Ground":
-		return UIColor.pokeLiteBrown
+		return UIColor(named: "pokeLiteBrown")!
 	case "Fighting":
-		return UIColor.pokeDarkRed
+		return UIColor(named: "pokeDarkRed")!
 	default:
-		return UIColor.pokeWhite
+		return UIColor(named: "pokeWhite")!
 	}
 }
 
