@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct MovieListView: View {
-	var movies: [MovieItem] = readMovieJson()!
+	var movies: Movies = readMovieJson()!
 	
 	var body: some View {
 		VStack {
@@ -12,10 +12,18 @@ struct MovieListView: View {
 							MovieItemView(title: movie.aTitle, image: movie.poster, releaseDate: movie.aReleaseDate, distributor: movie.aDistributor)
 						}
 					}
+					
 				}
 				.padding(.vertical)
 			}
 		}
-		.navigationBarTitle("Pokemon Movies", displayMode: .inline)
+		.navigationBarTitleDisplayMode(.inline)
+		.toolbar {
+			ToolbarItem(placement: .principal) {
+				Text("Pokemon Movies")
+					.font(.title2)
+					.bold()
+			}
+		}
 	}
 }

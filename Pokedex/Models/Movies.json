@@ -2,14 +2,15 @@
 	{
 		"number": 1,
 		"poster": "movie1",
-		"aTitle": "Pokemon: The First Movie - Mewtwo Strikes Back",
+		"aTitle": "The First Movie - Mewtwo Strikes Back",
 		"shortTitle": "Mewtwo Strikes Back",
 		"aReleaseDate": "November 12, 1999",
 		"aDistributor": "Warner Bros.",
 		"jTitle": "Mewtwo's Counterattack",
 		"jReleaseDate": "July 18, 1998",
 		"jDistributor": "Toho",
-		"summary": "Ash Ketchum and his friends are tricked into visiting New Island, an island ruled by a mutant Pokémon, Mewtwo. There, they find out about Mewtwo's plans to clone their Pokémon and destroy the world, and a massive battle follows between the clones and the originals—including the 'original' counterpart to Mewtwo: Mew."
+		"summary": "Ash Ketchum and his friends are tricked into visiting New Island, an island ruled by a mutant Pokémon, Mewtwo. There, they find out about Mewtwo's plans to clone their Pokémon and destroy the world, and a massive battle follows between the clones and the originals—including the 'original' counterpart to Mewtwo: Mew.",
+		"color": ["#2B4C8C","#03A696","#73BF26","#F2E205","#F2CB05"]
 	},
 	{
 		"number": 2,
@@ -62,8 +63,8 @@
 	{
 		"number": 6,
 		"poster": "movie6",
-		"aTitle": "Pokemon: Jirachi: Wish Maker",
-		"shortTitle": "Jirachi: Wish Maker",
+		"aTitle": "Jirachi: Wish Maker",
+		"shortTitle": "Wish Maker",
 		"aReleaseDate": "June 1, 2004",
 		"aDistributor": "Miramax Films",
 		"jTitle": "Wishing Star of the Seven Nights: Jirachi",
@@ -86,8 +87,8 @@
 	{
 		"number": 8,
 		"poster": "movie8",
-		"aTitle": "Pokemon: Lucario and the Mystery of Mew",
-		"shortTitle": "Lucario and the Mystery of Mew",
+		"aTitle": "Lucario and the Mystery of Mew",
+		"shortTitle": "Mystery of Mew",
 		"aReleaseDate": "September 19, 2006",
 		"aDistributor": "VIZ Media / Warner Bros.",
 		"jTitle": "Mew and the Wave Hero: Lucario",
@@ -110,7 +111,7 @@
 	{
 		"number": 10,
 		"poster": "movie10",
-		"aTitle": "Pokemon: The Rise of Darkrai",
+		"aTitle": "The Rise of Darkrai",
 		"shortTitle": "The Rise of Darkrai",
 		"aReleaseDate": "February 24, 2008",
 		"aDistributor": "VIZ Media / Warner Bros.",
@@ -122,8 +123,8 @@
 	{
 		"number": 11,
 		"poster": "movie11",
-		"aTitle": "Pokemon: Giratina and the Sky Warrior",
-		"shortTitle": "Giratina and the Sky Warrior",
+		"aTitle": "Giratina and the Sky Warrior",
+		"shortTitle": "The Sky Warrior",
 		"aReleaseDate": "February 13, 2009",
 		"aDistributor": "VIZ Media / Warner Bros.",
 		"jTitle": "Giratina and the Sky's Bouquet: Shaymin",
@@ -134,8 +135,8 @@
 	{
 		"number": 12,
 		"poster": "movie12",
-		"aTitle": "Pokemon: Arceus and the Jewel of Life",
-		"shortTitle": "Arceus and the Jewel of Life",
+		"aTitle": "Arceus and the Jewel of Life",
+		"shortTitle": "Jewel of Life",
 		"aReleaseDate": "November 20, 2009",
 		"aDistributor": "VIZ Media / Warner Bros.",
 		"jTitle": "Arceus: To a Conquering Spacetime",
@@ -146,7 +147,7 @@
 	{
 		"number": 13,
 		"poster": "movie13",
-		"aTitle": "Pokemon - Zoroark: Master of Illusions",
+		"aTitle": "Zoroark: Master of Illusions",
 		"shortTitle": "Master of Illusions",
 		"aReleaseDate": "February 5, 2011",
 		"aDistributor": "VIZ Media / Warner Bros.",
@@ -158,8 +159,8 @@
 	{
 		"number": 14,
 		"poster": "movie14a",
-		"aTitle": "Pokemon the Movie: White - Victini and Zekrom",
-		"shortTitle": "White - Victini and Zekrom",
+		"aTitle": "White - Victini and Zekrom",
+		"shortTitle": "Victini and Zekrom",
 		"aReleaseDate": "December 3, 2011",
 		"aDistributor": "VIZ Media / Warner Bros.",
 		"jTitle": "Victini and the Black Hero: Zekrom",
@@ -170,8 +171,8 @@
 	{
 		"number": 14.5,
 		"poster": "movie14b",
-		"aTitle": "Pokemon the Movie: Black - Victini and Reshiram",
-		"shortTitle": "Black - Victini and Reshiram",
+		"aTitle": "Black - Victini and Reshiram",
+		"shortTitle": "Victini and Reshiram",
 		"aReleaseDate": "December 10, 2011",
 		"aDistributor": "VIZ Media / Warner Bros.",
 		"jTitle": "Victini and the White Hero: Reshiram",
@@ -182,8 +183,8 @@
 	{
 		"number": 15,
 		"poster": "movie15",
-		"aTitle": "Pokemon the Movie: Kyurem vs. The Sword of Justice",
-		"shortTitle": "Kyurem vs. The Sword of Justice",
+		"aTitle": "Kyurem vs. The Sword of Justice",
+		"shortTitle": "The Sword of Justice",
 		"aReleaseDate": "December 8, 2012",
 		"aDistributor": "VIZ Media / Warner Bros.",
 		"jTitle": "Kyurem VS the Sacred Swordsman: Keldeo",
@@ -194,8 +195,8 @@
 	{
 		"number": 16,
 		"poster": "movie16",
-		"aTitle": "Pokemon the Movie: Genesect and The Legend Awakened",
-		"shortTitle": "Genesect and The Legend Awakened",
+		"aTitle": "Genesect and The Legend Awakened",
+		"shortTitle": "The Legend Awakened",
 		"aReleaseDate": "October 19, 2013",
 		"aDistributor": "VIZ Media / Warner Bros.",
 		"jTitle": "Extreme Speed Genesect: Mewtwo Awakens",
@@ -206,8 +207,8 @@
 	{
 		"number": 17,
 		"poster": "movie17",
-		"aTitle": "Pokemon the Movie: Diancie and the Cocoon of Destruction",
-		"shortTitle": "Diancie and the Cocoon of Destruction",
+		"aTitle": "Diancie and the Cocoon of Destruction",
+		"shortTitle": "Cocoon of Destruction",
 		"aReleaseDate": "November 8, 2014",
 		"aDistributor": "VIZ Media / Warner Bros.",
 		"jTitle": "The Cocoon of Destruction and Diancie",
@@ -218,8 +219,8 @@
 	{
 		"number": 18,
 		"poster": "movie18",
-		"aTitle": "Pokemon the Movie: Hoopa and the Clash of Ages",
-		"shortTitle": "Hoopa and the Clash of Ages",
+		"aTitle": "Hoopa and the Clash of Ages",
+		"shortTitle": "Clash of Ages",
 		"aReleaseDate": "November 5, 2015",
 		"aDistributor": "VIZ Media / Warner Bros.",
 		"jTitle": "The Archdjinni of the Rings: Hoopa",
@@ -230,8 +231,8 @@
 	{
 		"number": 19,
 		"poster": "movie19",
-		"aTitle": "Pokemon the Movie: Volcanion and the Mechanical Marvel",
-		"shortTitle": "Volcanion and the Mechanical Marvel",
+		"aTitle": "Volcanion and the Mechanical Marvel",
+		"shortTitle": "Mechanical Marvel",
 		"aReleaseDate": "November 4, 2016",
 		"aDistributor": "VIZ Media / Warner Bros.",
 		"jTitle": "Volcanion and the Mechanical Magearna",
@@ -254,7 +255,7 @@
 	{
 		"number": 21,
 		"poster": "movie21",
-		"aTitle": "Pokemon the Movie: The Power of Us",
+		"aTitle": "The Power of Us",
 		"shortTitle": "The Power of Us",
 		"aReleaseDate": "November 24, 2018",
 		"aDistributor": "Fathom Events, VIZ Media / Warner Bros.",
@@ -267,7 +268,7 @@
 		"number": 22,
 		"poster": "movie22",
 		"aTitle": "Pokemon: Mewtwo Strikes Back - Evolution",
-		"shortTitle": "Mewtwo Strikes Back - Evolution",
+		"shortTitle": "Mewtwo Strikes Back",
 		"aReleaseDate": "February 27, 2020",
 		"aDistributor": "Netflix, VIZ Media / Warner",
 		"jTitle": "Mewtwo's Counterattack Evolution",
@@ -278,7 +279,7 @@
 	{
 		"number": 23,
 		"poster": "movie23",
-		"aTitle": "Pokemon the Movie: Secrets of the Jungle",
+		"aTitle": "Secrets of the Jungle",
 		"shortTitle": "Secrets of the Jungle",
 		"aReleaseDate": "2021",
 		"aDistributor": "TBA",
@@ -286,5 +287,5 @@
 		"jReleaseDate": "December 25, 2020",
 		"jDistributor": "Toho",
 		"summary": "Ash and Pikachu encounter Koko, a young man who was raised as a Pokémon by Zarude and thus believes himself to be one. They help him begin to uncover his true identity and past, which leads to the revelation of a plot at the Biotope Company that threatens to destroy Zarude's home in the Forest of Okoya."
-	},
+	}
 ]

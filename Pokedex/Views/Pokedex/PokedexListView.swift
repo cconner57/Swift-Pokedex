@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct PokedexListView: View {
-	var pokemon: [PokemonItem] = readPokedexJson()!
+	var pokemon: Pokedex = readPokedexJson()!
 	
 	@State private var listView = false
 	
@@ -16,22 +16,22 @@ struct PokedexListView: View {
 			ZStack {
 				ScrollView {
 					if !listView {
-						LazyVGrid(columns: [GridItem(.adaptive(minimum: 150, maximum: 185))], content: {
+						LazyVGrid(columns: [GridItem(.adaptive(minimum: 150, maximum: 185))]) {
 							ForEach(pokemon, id: \.num) { pokemon in
 								NavigationLink(destination: PokedexItemDetail(pokemon: pokemon)) {
 									PokedexItemView(name: pokemon.name, number: pokemon.num, type: pokemon.type)
 								}
 							}
-						})
+						}
 						.animation(.default)
 					} else {
-						LazyVStack(alignment: .center, spacing: 25, pinnedViews: /*@START_MENU_TOKEN@*/[]/*@END_MENU_TOKEN@*/, content: {
+						LazyVStack(alignment: .center, spacing: 20) {
 							ForEach(pokemon, id: \.num) { pokemon in
 								NavigationLink(destination: PokedexItemDetail(pokemon: pokemon)) {
 									PokedexListItemView(name: pokemon.name, number: pokemon.num, type: pokemon.type)
 								}
 							}
-						})
+						}
 					}
 				}
 				.padding(.top)

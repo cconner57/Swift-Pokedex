@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A51C83B626794A9700CB8CCF /* TypeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51C83B526794A9700CB8CCF /* TypeData.swift */; };
+		A51CB11A2679A04D00151D1D /* TypeChartItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51CB1192679A04D00151D1D /* TypeChartItems.swift */; };
 		A5293D9F2676F6F9003426CE /* PokedexListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5293D9E2676F6F9003426CE /* PokedexListItemView.swift */; };
+		A5293DA1267848DC003426CE /* TypeChart.json in Resources */ = {isa = PBXBuildFile; fileRef = A5293DA0267848DC003426CE /* TypeChart.json */; };
 		A5352793266ADD5100C14203 /* MovieItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5352792266ADD5100C14203 /* MovieItemView.swift */; };
 		A5352795266ADE5300C14203 /* Movies.json in Resources */ = {isa = PBXBuildFile; fileRef = A5352794266ADE5300C14203 /* Movies.json */; };
 		A5352797266B04B300C14203 /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5352796266B04B300C14203 /* Movies.swift */; };
@@ -39,7 +42,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A51C83B526794A9700CB8CCF /* TypeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeData.swift; sourceTree = "<group>"; };
+		A51CB1192679A04D00151D1D /* TypeChartItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeChartItems.swift; sourceTree = "<group>"; };
 		A5293D9E2676F6F9003426CE /* PokedexListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexListItemView.swift; sourceTree = "<group>"; };
+		A5293DA0267848DC003426CE /* TypeChart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TypeChart.json; sourceTree = "<group>"; };
 		A5352792266ADD5100C14203 /* MovieItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieItemView.swift; sourceTree = "<group>"; };
 		A5352794266ADE5300C14203 /* Movies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Movies.json; sourceTree = "<group>"; };
 		A5352796266B04B300C14203 /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
@@ -157,8 +163,10 @@
 			children = (
 				A54C57552658A1860031DF26 /* Pokedex.swift */,
 				A5352796266B04B300C14203 /* Movies.swift */,
+				A51C83B526794A9700CB8CCF /* TypeData.swift */,
 				A542F7BA2665635C00F7821D /* News.swift */,
 				A5A4E2F62665A08600DE7659 /* Pokedex.json */,
+				A5293DA0267848DC003426CE /* TypeChart.json */,
 				A5352794266ADE5300C14203 /* Movies.json */,
 				A5C778182662FC680096FBD6 /* ModelData.swift */,
 			);
@@ -220,6 +228,7 @@
 			isa = PBXGroup;
 			children = (
 				A54C574A265869B00031DF26 /* TypeChartListView.swift */,
+				A51CB1192679A04D00151D1D /* TypeChartItems.swift */,
 			);
 			path = "Type Charts";
 			sourceTree = "<group>";
@@ -284,6 +293,7 @@
 				A5BC9F2B265823F900CC714B /* Preview Assets.xcassets in Resources */,
 				A5BC9F28265823F900CC714B /* Assets.xcassets in Resources */,
 				A5352795266ADE5300C14203 /* Movies.json in Resources */,
+				A5293DA1267848DC003426CE /* TypeChart.json in Resources */,
 				A5A4E2F72665A08600DE7659 /* Pokedex.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,11 +313,13 @@
 				A54C575026586D990031DF26 /* PokedexItemView.swift in Sources */,
 				A5C77825266319140096FBD6 /* PokedexMoves.swift in Sources */,
 				A54C573526582D980031DF26 /* MenuButtonView.swift in Sources */,
+				A51CB11A2679A04D00151D1D /* TypeChartItems.swift in Sources */,
 				A54C573C265861670031DF26 /* PokedexListView.swift in Sources */,
 				A5BC9F26265823F800CC714B /* HomeView.swift in Sources */,
 				A5C7781C266318800096FBD6 /* PokedexAbout.swift in Sources */,
 				A54C57422658697E0031DF26 /* AbilitiesListView.swift in Sources */,
 				A5352797266B04B300C14203 /* Movies.swift in Sources */,
+				A51C83B626794A9700CB8CCF /* TypeData.swift in Sources */,
 				A54C573F265867F10031DF26 /* MovieListView.swift in Sources */,
 				A58B39162671B97400A6D5E1 /* PokedexFilterModal.swift in Sources */,
 				A5C77822266318EB0096FBD6 /* PokedexEvolution.swift in Sources */,
