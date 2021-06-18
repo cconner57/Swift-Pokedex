@@ -61,3 +61,23 @@ func readTypeChartJson() -> TypeData? {
 			return nil
 		}
 }
+
+func readLocationsJson() -> Locations? {
+	guard let file = Bundle.main.path(forResource: "Locations", ofType: "json") else {
+		return nil
+	}
+		do {
+			let data = try Data(contentsOf: URL(fileURLWithPath: file), options: .mappedIfSafe)
+			let decoder = JSONDecoder()
+			do {
+				let LocationsModel = try decoder.decode(Locations.self, from: data)
+				return LocationsModel
+			}catch{
+				print(error)
+				return nil
+			}
+		} catch {
+			print(error)
+			return nil
+		}
+}

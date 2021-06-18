@@ -1,0 +1,170 @@
+[
+	[
+		[
+			{"region": "Kanto"}
+		],
+		[
+			{"town": "Celadon City", "image": "celadon-city", "slogan": "City of the Rainbow's Colors", "connecting": "Route 7 and Route 16"},
+			{"town": "Cerulean City", "image": "cerulean-city", "slogan": "The Floral Lagoon City", "connecting": "Route 4, Route 5, Route 9, and Route 24"},
+			{"town": "Cinnabar Island", "image": "cinnabar-island", "slogan": "The Ravaged Town of the Past", "connecting": "Route 20 and Route 21"},
+			{"town": "Fuchsia City", "image": "fuchsia-city", "slogan": "Happening and Passing City", "connecting": "Route 15, Route 18, and Route 19"},
+			{"town": "Lavender Town", "image": "lavender-town", "slogan": "The Noble Town", "connecting": "Route 8, Route 10, and Route 12"},
+			{"town": "Pallet Town", "image": "pallet-town", "slogan": "A Pure White Beginning", "connecting": "Route 1 and Route 21"},
+			{"town": "Pewter City", "image": "pewter-city", "slogan": "Between Rugged Mountains", "connecting": "Route 2 and Route 3"},
+			{"town": "Saffron City", "image": "saffron-city", "slogan": "Shining Big City", "connecting": "Route 5, Route 6, Route 7, and Route 8"},
+			{"town": "Vermilion City", "image": "vermilion-city", "slogan": "The Port of Exquisite Sunsets", "connecting": "Route 6, Route 11, and the open ocean"},
+			{"town": "Viridian City", "image": "viridian-city", "slogan": "The City of Evergreen", "connecting": "Route 1, Route 2, and Route 22"}
+		]
+	],
+	[
+		[
+			{"region": "Johto"}
+		],
+		[
+			{"town": "Azalea Town", "image": "", "slogan": "Living Happily with Pokemon", "connecting": "Route 33 and Ilex Foest"},
+			{"town": "Blackthorn City", "image": "", "slogan": "A Quiet Mountain Retreat", "connecting": "Ice Path and Route 45"},
+			{"town": "Cherrygrove City", "image": "", "slogan": "The City of Fragrant Flowers", "connecting": "Route 29 and Route 30"},
+			{"town": "Cianwood City", "image": "", "slogan": "A Port of Crashing Waves", "connecting": "Route 41 and Route 47"},
+			{"town": "Ecruteak City", "image": "", "slogan": "A Historical City", "connecting": "Route 37, Route 38, and Route 42"},
+			{"town": "Frontier Access", "image": "", "slogan": "N/A", "connecting": "Route 40 and the Battle Frontier"},
+			{"town": "Goldenrod City", "image": "", "slogan": "A Happening Big City", "connecting": "Route 34 and Route 35"},
+			{"town": "Mahogany Town", "image": "", "slogan": "Home of the Ninja", "connecting": "Route 42, Route 43, and Route 44"},
+			{"town": "New Bark Town", "image": "", "slogan": "Winds of a New Beginning", "connecting": "Route 29"},
+			{"town": "Olivine City", "image": "", "slogan": "The Port of Sea Breezes", "connecting": "Route 39, Route 40, and the open ocean"},
+			{"town": "Safari Zone Gate", "image": "", "slogan": "N/A", "connecting": "Route 48 and the Safari Zone"},
+			{"town": "Violet City", "image": "", "slogan": "The City of Nostalgic Scents", "connecting": "Route 31, Route 32, and Route 36"}
+		]
+	],
+	[
+		[
+			{"region": "Hoenn"}
+		],
+		[
+			{"town": "Dewford Town", "image": "", "slogan": "A tiny island in the blue sea", "connecting": "Route 106 and Route 107"},
+			{"town": "Ever Grande City", "image": "", "slogan": "", "connecting": "Route 128 and the open ocean"},
+			{"town": "Fallarbor Town", "image": "", "slogan": "A farm community with small gardens", "connecting": "Route 113 and Route 114"},
+			{"town": "Fortree City", "image": "", "slogan": "The treetop city that frolics with nature", "connecting": "Route 119 and Route 120"},
+			{"town": "Lavaridge Town", "image": "", "slogan": "An excellent place for relaxing", "connecting": "Jagged Pass and Route 112"},
+			{"town": "Littleroot Town", "image": "", "slogan": "A town that can't be shaded any hue", "connecting": "Route 101"},
+			{"town": "Lilycove City", "image": "", "slogan": "Where the land ends and the sea begins", "connecting": "Route 121, Route 124, and the open ocean"},
+			{"town": "Mauville City", "image": "", "slogan": "The bright and shiny city of fun", "connecting": "Route 110, Route 111, Route 117, and Route 118"},
+			{"town": "Mossdeep City", "image": "", "slogan": "Cherish Pokemon", "connecting": "Route 124, Route 125, and Route 127"},
+			{"town": "Oldale Town", "image": "", "slogan": "Where things start off scarce", "connecting": "Route 101, Route 102, Route 103"},
+			{"town": "Pacifidlog Town", "image": "", "slogan": "Where the moring sun smiles upon the waters", "connecting": "Route 131 and Route 132"},
+			{"town": "Petalburg City", "image": "", "slogan": "Where people mingle with nature", "connecting": "Route 102 and Route 104"},
+			{"town": "Rustboro City", "image": "", "slogan": "The city probing the integration of nature and science", "connecting": "Route 115, Route 116, and Route 104"},
+			{"town": "Slateport City", "image": "", "slogan": "The port where people and Pokemon cross paths with nature", "connecting": "Route 109, Route 110, Route 134, and the open ocean"},
+			{"town": "Sootopolis City", "image": "", "slogan": "The mystical city where history slumbers", "connecting": "Route 126"},
+			{"town": "Verdanturf Town", "image": "", "slogan": "The windswept highlands with the sweet fragrance of grass", "connecting": "Rusturf Tunnel and Route 117"}
+		]
+	],
+	[
+		[
+			{"region": "Sinnoh"}
+		],
+		[
+			{"town": "Canalave City", "image": "", "slogan": "Cargo Port", "connecting": "Route 218 and the open ocean"},
+			{"town": "Celestic Town", "image": "", "slogan": "The Past Lives", "connecting": "Route 210 and Route 211"},
+			{"town": "Eterna City", "image": "", "slogan": "History Living", "connecting": "Route 205, Route 206, and Route 211"},
+			{"town": "Fight Area", "image": "", "slogan": "Battles Galore", "connecting": "Route 225 and Route 230"},
+			{"town": "Floaroma Town", "image": "", "slogan": "Vivid and Scented", "connecting": "Route 204 and Route 205"},
+			{"town": "Hearthome City", "image": "", "slogan": "Warm and Kind", "connecting": "Route 208, Route 209, and Route 212"},
+			{"town": "Jubilife City", "image": "", "slogan": "City of Joy", "connecting": "Route 202, Route 203, Route 204, and Route 218"},
+			{"town": "Oreburgh City", "image": "", "slogan": "City of Energy", "connecting": "Route 203 and Route 207"},
+			{"town": "Pastoria City", "image": "", "slogan": "The Marsh City", "connecting": "Route 212 and Route 213"},
+			{"town": "Resort Area", "image": "", "slogan": "Relax and Play", "connecting": "Route 229 and Route 230"},
+			{"town": "Sandgem Town", "image": "", "slogan": "Town of Sand", "connecting": "Route 201, Route 202, and Route 219"},
+			{"town": "Snowpoint City", "image": "", "slogan": "City of Snow", "connecting": "Acuity Lakefront and the open ocean"},
+			{"town": "Solaceon Town", "image": "", "slogan": "Free of Worry", "connecting": "Route 209 and Route 210"},
+			{"town": "Sunyshore City", "image": "", "slogan": "Solar Powered", "connecting": "Route 222 and Route 223"},
+			{"town": "Survival Area", "image": "", "slogan": "Staging Point", "connecting": "Route 225 and Route 226"},
+			{"town": "Twinleaf Town", "image": "", "slogan": "Fresh and Free", "connecting": "Route 201"},
+			{"town": "Veilstone City", "image": "", "slogan": "Hewn from Rock", "connecting": "Route 214 and Route 215"}
+		]
+	],
+	[
+		[
+			{"region": "Unova"}
+		],
+		[
+			{"town": "Accumula Town", "image": "", "slogan": "The Fast-Growing Town", "connecting": "Route 1 and Route 2"},
+			{"town": "Anville Town", "image": "", "slogan": "Rolling Out the Steel Rails", "connecting": "N/A"},
+			{"town": "Aspertia City", "image": "", "slogan": "Blackberry Lily City", "connecting": "Route 19"},
+			{"town": "Black City", "image": "", "slogan": "Propserous and Vibrant", "connecting": "Route 14 and Route 15"},
+			{"town": "Castelia City", "image": "", "slogan": "A City of Grandeur", "connecting": "Route 4 and Skyarrow Bridge"},
+			{"town": "Driftveil City", "image": "", "slogan": "A City of Billowing Sails", "connecting": "Route 6, Driftveil Drawbridge, and Cold Storage"},
+			{"town": "Floccesy Town", "image": "", "slogan": "Prophecy Flocks Here", "connecting": "Route 19 and Route 20"},
+			{"town": "Humilau City", "image": "", "slogan": "Calm and Sparkling Seas", "connecting": "Route 21, Route 22, and Marine Tube"},
+			{"town": "Icirrus City", "image": "", "slogan": "Sky Glittering with Flowers of Snow", "connecting": "Route 8, Dragonspiral Tower, and Twist Mountain"},
+			{"town": "Lacunosa Town", "image": "", "slogan": "Methodical and Orderly", "connecting": "Route 12 and Route 13"},
+			{"town": "Lentimas Town", "image": "", "slogan": "N/A", "connecting": "Reversal Mountain"},
+			{"town": "Mistralton City", "image": "", "slogan": "Strewn with Windblown Leaves", "connecting": "Route 7 and Chargestone Cave"},
+			{"town": "Nacrene City", "image": "", "slogan": "A Pearl of a Place", "connecting": "Route 3 and Pinwheel Forest"},
+			{"town": "Nimbasa City", "image": "", "slogan": "Lit by the Flash of Lightning", "connecting": "Route 4, Route 5, and Route 16"},
+			{"town": "Nuvema Town", "image": "", "slogan": "The Start of Something Big", "connecting": "Route 1"},
+			{"town": "Opelucid City", "image": "", "slogan": "Time's Dividing Line", "connecting": "Route 9, Route 10, and Route 11"},
+			{"town": "Striaton City", "image": "", "slogan": "Three Stand Together as One", "connecting": "Route 2, Route 3, Dreamyard"},
+			{"town": "Undella Town", "image": "", "slogan": "A Town of Rippling Waves", "connecting": "Route 13, Route 14, Undella Bay, Reversal Mountain, and Marine Tube"},
+			{"town": "Virbank City", "image": "", "slogan": "City of Falling Fog and Rising Stars", "connecting": "Route 20, Pokestar Studios, and Virbank Complex"},
+			{"town": "White Forest", "image": "", "slogan": "People and Nature in Harmony", "connecting": "Route 14 and Route 15"}
+		]
+	],
+	[
+		[
+			{"region": "Kalos"}
+		],
+		[
+			{"town": "Ambrette Town", "image": "", "slogan": "Where amber dust dances", "connecting": "Route 8 and Route 9"},
+			{"town": "Anistar City", "image": "", "slogan": "The starry city marking the hours", "connecting": "Route 17 and Route 18"},
+			{"town": "Aquacorde Town", "image": "", "slogan": "Water and civilization in harmony", "connecting": "Route 1 and Route 2"},
+			{"town": "Camphrier Town", "image": "", "slogan": "A town where you can taste the ages", "connecting": "Route 5 and Route 7"},
+			{"town": "Coumarine City", "image": "", "slogan": "The city where bay and butte are bound", "connecting": "Route 12 and Route 13"},
+			{"town": "Couriway Town", "image": "", "slogan": "A town connecting differences", "connecting": "Route 18 and Route 19"},
+			{"town": "Cyllage City", "image": "", "slogan": "The city of peaceful strolls", "connecting": "Route 8, Route 10, and connecting Cave"},
+			{"town": "Dendemille Town", "image": "", "slogan": "A town where fluff dances on the wind", "connecting": "Route 15, Route 17, and Frost Cavern"},
+			{"town": "Geosenge Town", "image": "", "slogan": "Quiet stones speak volumes", "connecting": "Route 10, Route 11, and Team Flare Secret HQ"},
+			{"town": "Kiloude City", "image": "", "slogan": "A kind, sweet, and exquisite city", "connecting": "N/A"},
+			{"town": "Laverre City", "image": "", "slogan": "The city of otherworldly dreams", "connecting": "Route 14, Route 15, and Poke Ball Factory"},
+			{"town": "Lumiose City", "image": "", "slogan": "The City of Light", "connecting": "Route 4, Route 5, Route 13, Route 14, and Route 16"},
+			{"town": "Santalune City", "image": "", "slogan": "A traditional city", "connecting": "Route 3, Route 4, and Route 22"},
+			{"town": "Shalour City", "image": "", "slogan": "A city of awakening", "connecting": "Route 12 and Reflection Cave"},
+			{"town": "Snowbelle City", "image": "", "slogan": "The city of everlasting winter", "connecting": "Rotue 19, Route 20, and Route 21"},
+			{"town": "Vaniville Town", "image": "", "slogan": "A town whose flower is about to bloom", "connecting": "Route 1"}
+		]
+	],
+	[
+		[
+			{"region": "Alola"}
+		],
+		[
+			{"town": "Hau'oli City", "image": "", "slogan": "A city overflowing with gentle joy", "connecting": "Route 1, Route 2, and Melemele Sea"},
+			{"town": "Heahea City", "image": "", "slogan": "A town that always welcomes visitors", "connecting": "Route 4, Route 6, Hano Grand Resort, and Diglett's Tunnel"},
+			{"town": "Iki Town", "image": "", "slogan": "The place where we give thanks to Pokemon", "connecting": "Route 1 and Mahalo Trail"},
+			{"town": "Konikoni City", "image": "", "slogan": "A town that welcomes the sea breeze", "connecting": "Route 9 and Diglett's Tunnel"},
+			{"town": "Malie City", "image": "", "slogan": "Enjoy the enticing Eastern influence", "connecting": "Route 10, Route 11, and Malie Garden"},
+			{"town": "Paniola Town", "image": "", "slogan": "The town we developed with our Pokemon", "connecting": "Route 4, Route 6, and Paniola Ranch"},
+			{"town": "Po Town", "image": "", "slogan": "You're in Team Skull Territory Now", "connecting": "Route 17"},
+			{"town": "Seafolk Village", "image": "", "slogan": "N/A", "connecting": "Poni Wilds"},
+			{"town": "Tapu Village", "image": "", "slogan": "N/A", "connecting": "Route 13, Route 14, Route 15, and Mount Lanakila"}
+		]
+	],
+	[
+		[
+			{"region": "Galar"}
+		],
+		[
+			{"town": "Ballonlea", "image": "", "slogan": "A charming town where the people make their homes among the trunks of the towering trees", "connecting": "Glimwood Tangle"},
+			{"town": "Circhester", "image": "", "slogan": "Buildings from an age of long gone still stand about the steaming hot springs that covers the town", "connecting": "Route 8 and Route 9"},
+			{"town": "Freezington", "image": "", "slogan": "N/A", "connecting": "Slippery Slope and Frostpoint Field"},
+			{"town": "Hammerlocke", "image": "", "slogan": "A city of great history, living and thriving within castle walls that date back to the middle ages", "connecting": "Hammerlocke Hills, Route 6, and Route 7"},
+			{"town": "Hulbury", "image": "", "slogan": "A bustling seaport that many visit to see its lively market stalls and famed restaurant", "connecting": "Route 6 and Galar Mine No. 2"},
+			{"town": "Motostoke", "image": "", "slogan": "An industrial city studded with steam-powered marvels of modern engineering", "connecting": "East Lake Axewell, Motostoke Outskirts, and Route 3"},
+			{"town": "Postwick", "image": "", "slogan": "A farming town since days of old, where people and their Pokemon live in close harmony", "connecting": "Route 1 and Slumbering Weald"},
+			{"town": "Stow-on-Side", "image": "", "slogan": "A vibrant town that has grown up around an ancient mural tucked away in the mountains", "connecting": "Route 6 and Glimwood Tangle"},
+			{"town": "Spikemuth", "image": "", "slogan": "This rocking town has a punk vibe and streets crammed with shops lined up cheek by jowl", "connecting": "Route 9"},
+			{"town": "Turffield", "image": "", "slogan": "A town nestled within nurturing bowl of our many terraced farming fields", "connecting": "Route 4 and Route 5"},
+			{"town": "Wedgehurst", "image": "", "slogan": "Our quiet borough is home to the esteemed Pokemon Research Lab", "connecting": "Route 1 and Route 2"},
+			{"town": "Wyndon", "image": "", "slogan": "This booming metropolis was designed and developed by our very own Chairman Rose", "connecting": "Route 10"}
+		]
+	]
+]
