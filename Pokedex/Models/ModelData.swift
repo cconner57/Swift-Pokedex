@@ -81,3 +81,23 @@ func readLocationsJson() -> Locations? {
 			return nil
 		}
 }
+
+func readItemsJson() -> Items? {
+	guard let file = Bundle.main.path(forResource: "Items", ofType: "json") else {
+		return nil
+	}
+		do {
+			let data = try Data(contentsOf: URL(fileURLWithPath: file), options: .mappedIfSafe)
+			let decoder = JSONDecoder()
+			do {
+				let ItemsModel = try decoder.decode(Items.self, from: data)
+				return ItemsModel
+			}catch{
+				print(error)
+				return nil
+			}
+		} catch {
+			print(error)
+			return nil
+		}
+}

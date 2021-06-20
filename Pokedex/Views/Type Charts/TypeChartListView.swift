@@ -65,7 +65,7 @@ struct TypeChartListView: View {
 								.padding()
 								.background(
 									LinearGradient(gradient: Gradient(colors: [Color("pokeBlue"), Color("pokeLiteBlue")]), startPoint: .leading, endPoint: .trailing).opacity(1)
-									)
+								)
 								.frame(width: geometry.size.width * 0.7)
 								.cornerRadius(10)
 								.shadow(color: .black.opacity(0.5), radius: 3, x: 0, y: 5)
@@ -78,7 +78,14 @@ struct TypeChartListView: View {
 			}
 		}
 		.font(.footnote)
-		.navigationBarTitle("Type Charts", displayMode: .inline)
+		.navigationBarTitleDisplayMode(.inline)
+		.toolbar {
+			ToolbarItem(placement: .principal) {
+				Text("Type Charts")
+					.font(.title2)
+					.bold()
+			}
+		}
 	}
 }
 

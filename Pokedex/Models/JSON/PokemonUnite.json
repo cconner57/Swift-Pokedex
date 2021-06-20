@@ -1,0 +1,481 @@
+[
+	{
+		"Pokemon": [
+			{
+				"id": 1,
+				"name": "pikachu",
+				"description": "Pikachu is a Pokémon that excels at attacking opponents from far away with electricity. Sometimes the attacks even leave opposing Pokémon paralyzed!",
+				"type": "Attacker",
+				"subtype": ["Attacker", "Ranged"],
+				"difficulty": "novice",
+				"stats": {
+					"offense": 4.5,
+					"endurance": 1.5,
+					"mobility": 2.5,
+					"scoring": 2.0,
+					"support": 1.5
+				},
+				"levelup": [1,3,4,6,9],
+				"evolve": false,
+				"evolveForm":[],
+				"moves": {
+					"unite": "thunderstorm",
+					"description": "Pikachu’s Unite Move is Thunderstorm, an attack that blasts all surrounding opposing Pokémon with powerful lightning."
+				}
+			},
+			{
+				"id": 2,
+				"name": "charizard",
+				"description": "When it’s still a Charmander, it’s not the most reliable, but when it evolves into Charizard, it can use its powerful moves to attack and deal damage over a wide area.",
+				"type": "All-Rounder",
+				"subtype": ["All-Rounter", "Melee"],
+				"difficulty": "novice",
+				"stats": {
+					"offense": 3.5,
+					"endurance": 3.0,
+					"mobility": 2.5,
+					"scoring": 3,
+					"support": 0.5
+				},
+				"levelup": [1,3,5,7,9],
+				"evolve": true,
+				"evolveForm":[
+					{
+						"name": "charmander",
+						"level": 1
+					},
+					{
+						"name": "charmeleon",
+						"level": 4
+					},
+					{
+						"name": "charizard",
+						"level": 9
+					},
+				],
+				"moves": {
+					"unite": "seismic slam",
+					"description": "Charizard’s Unite Move is Seismic Slam, an attack in which Charizard aims for and grabs one opposing Pokémon before bringing it up into the air and slamming it down to the ground."
+				}
+			},
+			{
+				"id": 3,
+				"name": "snorlax",
+				"description": "Snorlax can take a lot of hits. It’s a dependable Pokémon that can protect its allies from harm.",
+				"type": "Defender",
+				"subtype": ["Defender", "Melee"],
+				"difficulty": "novice",
+				"stats": {
+					"offense": 1.5,
+					"endurance": 5.0,
+					"mobility": 2.0,
+					"scoring": 1.5,
+					"support": 2.5
+				},
+				"levelup": [1,3,6,8,10],
+				"evolve": false,
+				"evolveForm":[],
+				"moves": {
+					"unite": "power nap",
+					"description": "Snorlax’s Unite Move is Power Nap, an attack in which Snorlax nods off and can roll around in its sleep to attack its opponents."
+				}
+			},
+			{
+				"id": 4,
+				"name": "crustle",
+				"description": "Crustle hinders its opponents using many different moves.",
+				"type": "Defender",
+				"subtype": ["Defender", "Melee"],
+				"difficulty": "novice",
+				"stats": {
+					"offense": 1.5,
+					"endurance": 4.0,
+					"mobility": 1.5,
+					"scoring": 2.0,
+					"support": 3.0
+				},
+				"levelup": [1,3,4,6,9],
+				"evolve": true,
+				"evolveForm":[
+					{
+						"name": "dwebble",
+						"leve": 1
+					},
+					{
+						"name": "crustle",
+						"level": 4
+					}
+				],
+				"moves": {
+					"unite": "rubble rouser",
+					"description": "By using its Unite Move, Rubble Rouser, Crustle covers itself in a swirl of rocks and keeps its opponents from getting anywhere near it."
+				}
+			},
+			{
+				"id": 5,
+				"name": "greninja",
+				"description": "Greninja is a Pokémon that uses smokescreens and illusory copies of itself to hide.",
+				"type": "Attacker",
+				"subtype": ["Attacker", "Ranged"],
+				"difficulty": "expert",
+				"stats": {
+					"offense": 4.0,
+					"endurance": 2.0,
+					"mobility": 3.0,
+					"scoring": 3.0,
+					"support": 0.5
+				},
+				"levelup": [1,3,5,7,9],
+				"evolve": true,
+				"evolveForm":[
+					{
+						"name": "froakie",
+						"level": 1
+					},
+					{
+						"name": "frogadier",
+						"level": 5
+					},
+					{
+						"name": "greninja",
+						"level": 7
+					},
+				],
+				"moves": {
+					"unite": "waterburst shuriken",
+					"description": "Its Unite Move is Waterburst Shuriken, an attack in which Greninja deals massive damage to opponents by throwing a huge water shuriken down on them from above."
+				}
+			},
+			{
+				"id": 6,
+				"name": "eldegross",
+				"description": "Eldegoss is a master supporter that can restore its allies’ HP and boost their movement speed.",
+				"type": "Supporter",
+				"subtype": ["Supporter", "Ranged"],
+				"difficulty": "novice",
+				"stats": {
+					"offense": 1.5,
+					"endurance": 2.0,
+					"mobility": 2.5,
+					"scoring": 2.5,
+					"support": 4.0
+				},
+				"levelup": [1,3,4,6,9],
+				"evolve": true,
+				"evolveForm":[
+				{
+					"name": "gossifleur",
+					"level": 1
+				},
+				{
+					"name": "eldegoss",
+					"level": 4
+				}
+				],
+				"moves": {
+					"unite": "cotton cloud crash",
+					"description": "Eldegoss’s Unite Move is Cotton Cloud Crash, an attack that lifts Eldegoss into the air to slam down onto the ground, restoring HP to allies and dealing damage to opposing Pokémon."
+				}
+			},
+			{
+				"id": 7,
+				"name": "talonflame",
+				"description": "Pikachu is a Pokémon that excels at attacking opponents from far away with electricity. Sometimes the attacks even leave opposing Pokémon paralyzed!",
+				"type": "Speedster",
+				"subtype": ["attacker", "ranged"],
+				"difficulty": "novice",
+				"stats": {
+					"offense": 4.5,
+					"endurance": 1.5,
+					"mobility": 2.5,
+					"scoring": 2,
+					"support": 1.5
+				},
+				"levelup": [1,3,4,6,9],
+				"evolve": false,
+				"evolveForm":[],
+				"moves": {
+					"unite": "thunderstorm",
+					"description": "Pikachu’s Unite Move is Thunderstorm, an attack that blasts all surrounding opposing Pokémon with powerful lightning."
+				}
+			},
+			{
+				"id": 8,
+				"name": "lucario",
+				"description": "Pikachu is a Pokémon that excels at attacking opponents from far away with electricity. Sometimes the attacks even leave opposing Pokémon paralyzed!",
+				"type": "All-Rounder",
+				"subtype": ["attacker", "ranged"],
+				"difficulty": "novice",
+				"stats": {
+					"offense": 4.5,
+					"endurance": 1.5,
+					"mobility": 2.5,
+					"scoring": 2,
+					"support": 1.5
+				},
+				"levelup": [1,3,4,6,9],
+				"evolve": false,
+				"evolveForm":[],
+				"moves": {
+					"unite": "thunderstorm",
+					"description": "Pikachu’s Unite Move is Thunderstorm, an attack that blasts all surrounding opposing Pokémon with powerful lightning."
+				}
+			},
+			{
+				"id": 9,
+				"name": "Venusaur",
+				"description": "Pikachu is a Pokémon that excels at attacking opponents from far away with electricity. Sometimes the attacks even leave opposing Pokémon paralyzed!",
+				"type": "Attacker",
+				"subtype": ["attacker", "ranged"],
+				"difficulty": "novice",
+				"stats": {
+					"offense": 4.5,
+					"endurance": 1.5,
+					"mobility": 2.5,
+					"scoring": 2,
+					"support": 1.5
+				},
+				"levelup": [1,3,4,6,9],
+				"evolve": false,
+				"evolveForm":[],
+				"moves": {
+					"unite": "thunderstorm",
+					"description": "Pikachu’s Unite Move is Thunderstorm, an attack that blasts all surrounding opposing Pokémon with powerful lightning."
+				}
+			},
+			{
+				"id": 10,
+				"name": "Mr.Mime",
+				"description": "Pikachu is a Pokémon that excels at attacking opponents from far away with electricity. Sometimes the attacks even leave opposing Pokémon paralyzed!",
+				"type": "Supporter",
+				"subtype": ["attacker", "ranged"],
+				"difficulty": "novice",
+				"stats": {
+					"offense": 4.5,
+					"endurance": 1.5,
+					"mobility": 2.5,
+					"scoring": 2,
+					"support": 1.5
+				},
+				"levelup": [1,3,4,6,9],
+				"evolve": false,
+				"evolveForm":[],
+				"moves": {
+					"unite": "thunderstorm",
+					"description": "Pikachu’s Unite Move is Thunderstorm, an attack that blasts all surrounding opposing Pokémon with powerful lightning."
+				}
+			},
+			{
+				"id": 11,
+				"name": "Slowbro",
+				"description": "Pikachu is a Pokémon that excels at attacking opponents from far away with electricity. Sometimes the attacks even leave opposing Pokémon paralyzed!",
+				"type": "Defender",
+				"subtype": ["attacker", "ranged"],
+				"difficulty": "novice",
+				"stats": {
+					"offense": 4.5,
+					"endurance": 1.5,
+					"mobility": 2.5,
+					"scoring": 2,
+					"support": 1.5
+				},
+				"levelup": [1,3,4,6,9],
+				"evolve": false,
+				"evolveForm":[],
+				"moves": {
+					"unite": "thunderstorm",
+					"description": "Pikachu’s Unite Move is Thunderstorm, an attack that blasts all surrounding opposing Pokémon with powerful lightning."
+				}
+			},
+			{
+				"id": 12,
+				"name": "Absol",
+				"description": "Pikachu is a Pokémon that excels at attacking opponents from far away with electricity. Sometimes the attacks even leave opposing Pokémon paralyzed!",
+				"type": "Speedster",
+				"subtype": ["attacker", "ranged"],
+				"difficulty": "novice",
+				"stats": {
+					"offense": 4.5,
+					"endurance": 1.5,
+					"mobility": 2.5,
+					"scoring": 2,
+					"support": 1.5
+				},
+				"levelup": [1,3,4,6,9],
+				"evolve": false,
+				"evolveForm":[],
+				"moves": {
+					"unite": "thunderstorm",
+					"description": "Pikachu’s Unite Move is Thunderstorm, an attack that blasts all surrounding opposing Pokémon with powerful lightning."
+				}
+			},
+			{
+				"id": 13,
+				"name": "Machamp",
+				"description": "Pikachu is a Pokémon that excels at attacking opponents from far away with electricity. Sometimes the attacks even leave opposing Pokémon paralyzed!",
+				"type": "All-Rounder",
+				"subtype": ["attacker", "ranged"],
+				"difficulty": "novice",
+				"stats": {
+					"offense": 4.5,
+					"endurance": 1.5,
+					"mobility": 2.5,
+					"scoring": 2,
+					"support": 1.5
+				},
+				"levelup": [1,3,4,6,9],
+				"evolve": false,
+				"evolveForm":[],
+				"moves": {
+					"unite": "thunderstorm",
+					"description": "Pikachu’s Unite Move is Thunderstorm, an attack that blasts all surrounding opposing Pokémon with powerful lightning."
+				}
+			},
+			{
+				"id": 14,
+				"name": "Wigglytuff",
+				"description": "Pikachu is a Pokémon that excels at attacking opponents from far away with electricity. Sometimes the attacks even leave opposing Pokémon paralyzed!",
+				"type": "Supporter",
+				"subtype": ["attacker", "ranged"],
+				"difficulty": "novice",
+				"stats": {
+					"offense": 4.5,
+					"endurance": 1.5,
+					"mobility": 2.5,
+					"scoring": 2,
+					"support": 1.5
+				},
+				"levelup": [1,3,4,6,9],
+				"evolve": false,
+				"evolveForm":[],
+				"moves": {
+					"unite": "thunderstorm",
+					"description": "Pikachu’s Unite Move is Thunderstorm, an attack that blasts all surrounding opposing Pokémon with powerful lightning."
+				}
+			},
+			{
+				"id": 15,
+				"name": "Alolan Ninetales",
+				"description": "Pikachu is a Pokémon that excels at attacking opponents from far away with electricity. Sometimes the attacks even leave opposing Pokémon paralyzed!",
+				"type": "Attacker",
+				"subtype": ["attacker", "ranged"],
+				"difficulty": "novice",
+				"stats": {
+					"offense": 4.5,
+					"endurance": 1.5,
+					"mobility": 2.5,
+					"scoring": 2,
+					"support": 1.5
+				},
+				"levelup": [1,3,4,6,9],
+				"evolve": false,
+				"evolveForm":[],
+				"moves": {
+					"unite": "thunderstorm",
+					"description": "Pikachu’s Unite Move is Thunderstorm, an attack that blasts all surrounding opposing Pokémon with powerful lightning."
+				}
+			},
+			{
+				"id": 16,
+				"name": "Cramorant",
+				"description": "Pikachu is a Pokémon that excels at attacking opponents from far away with electricity. Sometimes the attacks even leave opposing Pokémon paralyzed!",
+				"type": "Attacker",
+				"subtype": ["attacker", "ranged"],
+				"difficulty": "novice",
+				"stats": {
+					"offense": 4.5,
+					"endurance": 1.5,
+					"mobility": 2.5,
+					"scoring": 2,
+					"support": 1.5
+				},
+				"levelup": [1,3,4,6,9],
+				"evolve": false,
+				"evolveForm":[],
+				"moves": {
+					"unite": "thunderstorm",
+					"description": "Pikachu’s Unite Move is Thunderstorm, an attack that blasts all surrounding opposing Pokémon with powerful lightning."
+				}
+			},
+			{
+				"id": 17,
+				"name": "Gengar",
+				"description": "Pikachu is a Pokémon that excels at attacking opponents from far away with electricity. Sometimes the attacks even leave opposing Pokémon paralyzed!",
+				"type": "Speedster",
+				"subtype": ["attacker", "ranged"],
+				"difficulty": "novice",
+				"stats": {
+					"offense": 4.5,
+					"endurance": 1.5,
+					"mobility": 2.5,
+					"scoring": 2,
+					"support": 1.5
+				},
+				"levelup": [1,3,4,6,9],
+				"evolve": false,
+				"evolveForm":[],
+				"moves": {
+					"unite": "thunderstorm",
+					"description": "Pikachu’s Unite Move is Thunderstorm, an attack that blasts all surrounding opposing Pokémon with powerful lightning."
+				}
+			},
+			{
+				"id": 18,
+				"name": "Garchomp",
+				"description": "Pikachu is a Pokémon that excels at attacking opponents from far away with electricity. Sometimes the attacks even leave opposing Pokémon paralyzed!",
+				"type": "All-Rounder",
+				"subtype": ["attacker", "ranged"],
+				"difficulty": "novice",
+				"stats": {
+					"offense": 4.5,
+					"endurance": 1.5,
+					"mobility": 2.5,
+					"scoring": 2,
+					"support": 1.5
+				},
+				"levelup": [1,3,4,6,9],
+				"evolve": false,
+				"evolveForm":[],
+				"moves": {
+					"unite": "thunderstorm",
+					"description": "Pikachu’s Unite Move is Thunderstorm, an attack that blasts all surrounding opposing Pokémon with powerful lightning."
+				}
+			},
+			{
+				"id": 19,
+				"name": "Cinderace",
+				"description": "Pikachu is a Pokémon that excels at attacking opponents from far away with electricity. Sometimes the attacks even leave opposing Pokémon paralyzed!",
+				"type": "Attacker",
+				"subtype": ["attacker", "ranged"],
+				"difficulty": "novice",
+				"stats": {
+					"offense": 4.5,
+					"endurance": 1.5,
+					"mobility": 2.5,
+					"scoring": 2,
+					"support": 1.5
+				},
+				"levelup": [1,3,4,6,9],
+				"evolve": false,
+				"evolveForm":[],
+				"moves": {
+					"unite": "thunderstorm",
+					"description": "Pikachu’s Unite Move is Thunderstorm, an attack that blasts all surrounding opposing Pokémon with powerful lightning."
+				}
+			},
+		],
+		"Stages": [
+			
+		],
+		"Items": [
+			
+		],
+		"Types": {
+			"Attacker": "Pokemon that have low Endurance and excel at dealing heavy ranged damage to opponents.",
+			"Speedster": "Pokemon that have high Mobility and Offense and excel at making quick attacks and scoring points.",
+			"All-Rounder": "Pokemon that have balanced Offense and Endurance and are highly tenacious fighters.",
+			"Defender": "Pokemon that have high Endurance and excel at protecting allies and hindering opponents.",
+			"Supporter": "Pokemon that provide team support by inflicting status conditions on opponents and by healing allies."
+		}
+	}
+]

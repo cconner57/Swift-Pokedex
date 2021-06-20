@@ -11,9 +11,7 @@ struct LocationItemView: View {
 					VStack {
 						townSection(towns)
 						sloganSection(towns)
-						if locationData[arrayIndex][1][towns].image! != "" {
-							imageSection(towns)
-						}
+						imageSection(towns)
 					}
 					.padding(.bottom)
 					HStack {
@@ -43,12 +41,12 @@ struct LocationItemView: View {
 			.font(.title3)
 	}
 	func sloganSection(_ towns: Int ) -> some View {
-		Text(locationData[arrayIndex][1][towns].slogan!)
+		Text(locationData[arrayIndex][1][towns].slogan! != "N/A" ? locationData[arrayIndex][1][towns].slogan! : "")
 			.font(.footnote)
 			.multilineTextAlignment(.center)
 	}
 	func imageSection(_ towns: Int ) -> some View {
-		Image(locationData[arrayIndex][1][towns].image!)
+		Image(locationData[arrayIndex][1][towns].image! != "" ? locationData[arrayIndex][1][towns].image! : "town-placeholder")
 			.resizable()
 			.scaledToFit()
 			.frame(width: 250)

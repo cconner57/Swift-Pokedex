@@ -21,18 +21,18 @@
 			{"region": "Johto"}
 		],
 		[
-			{"town": "Azalea Town", "image": "", "slogan": "Living Happily with Pokemon", "connecting": "Route 33 and Ilex Foest"},
-			{"town": "Blackthorn City", "image": "", "slogan": "A Quiet Mountain Retreat", "connecting": "Ice Path and Route 45"},
-			{"town": "Cherrygrove City", "image": "", "slogan": "The City of Fragrant Flowers", "connecting": "Route 29 and Route 30"},
-			{"town": "Cianwood City", "image": "", "slogan": "A Port of Crashing Waves", "connecting": "Route 41 and Route 47"},
-			{"town": "Ecruteak City", "image": "", "slogan": "A Historical City", "connecting": "Route 37, Route 38, and Route 42"},
+			{"town": "Azalea Town", "image": "azalea-town", "slogan": "Living Happily with Pokemon", "connecting": "Route 33 and Ilex Foest"},
+			{"town": "Blackthorn City", "image": "blackthorn-city", "slogan": "A Quiet Mountain Retreat", "connecting": "Ice Path and Route 45"},
+			{"town": "Cherrygrove City", "image": "cherrygrove-city", "slogan": "The City of Fragrant Flowers", "connecting": "Route 29 and Route 30"},
+			{"town": "Cianwood City", "image": "cianwood-city", "slogan": "A Port of Crashing Waves", "connecting": "Route 41 and Route 47"},
+			{"town": "Ecruteak City", "image": "ecruteak-city", "slogan": "A Historical City", "connecting": "Route 37, Route 38, and Route 42"},
 			{"town": "Frontier Access", "image": "", "slogan": "N/A", "connecting": "Route 40 and the Battle Frontier"},
-			{"town": "Goldenrod City", "image": "", "slogan": "A Happening Big City", "connecting": "Route 34 and Route 35"},
-			{"town": "Mahogany Town", "image": "", "slogan": "Home of the Ninja", "connecting": "Route 42, Route 43, and Route 44"},
-			{"town": "New Bark Town", "image": "", "slogan": "Winds of a New Beginning", "connecting": "Route 29"},
-			{"town": "Olivine City", "image": "", "slogan": "The Port of Sea Breezes", "connecting": "Route 39, Route 40, and the open ocean"},
+			{"town": "Goldenrod City", "image": "goldenrod-city", "slogan": "A Happening Big City", "connecting": "Route 34 and Route 35"},
+			{"town": "Mahogany Town", "image": "mahogany-town", "slogan": "Home of the Ninja", "connecting": "Route 42, Route 43, and Route 44"},
+			{"town": "New Bark Town", "image": "new-bark-town", "slogan": "Winds of a New Beginning", "connecting": "Route 29"},
+			{"town": "Olivine City", "image": "olivine-city", "slogan": "The Port of Sea Breezes", "connecting": "Route 39, Route 40, and the open ocean"},
 			{"town": "Safari Zone Gate", "image": "", "slogan": "N/A", "connecting": "Route 48 and the Safari Zone"},
-			{"town": "Violet City", "image": "", "slogan": "The City of Nostalgic Scents", "connecting": "Route 31, Route 32, and Route 36"}
+			{"town": "Violet City", "image": "violet-city", "slogan": "The City of Nostalgic Scents", "connecting": "Route 31, Route 32, and Route 36"}
 		]
 	],
 	[
@@ -40,22 +40,22 @@
 			{"region": "Hoenn"}
 		],
 		[
-			{"town": "Dewford Town", "image": "", "slogan": "A tiny island in the blue sea", "connecting": "Route 106 and Route 107"},
-			{"town": "Ever Grande City", "image": "", "slogan": "", "connecting": "Route 128 and the open ocean"},
-			{"town": "Fallarbor Town", "image": "", "slogan": "A farm community with small gardens", "connecting": "Route 113 and Route 114"},
-			{"town": "Fortree City", "image": "", "slogan": "The treetop city that frolics with nature", "connecting": "Route 119 and Route 120"},
-			{"town": "Lavaridge Town", "image": "", "slogan": "An excellent place for relaxing", "connecting": "Jagged Pass and Route 112"},
-			{"town": "Littleroot Town", "image": "", "slogan": "A town that can't be shaded any hue", "connecting": "Route 101"},
-			{"town": "Lilycove City", "image": "", "slogan": "Where the land ends and the sea begins", "connecting": "Route 121, Route 124, and the open ocean"},
-			{"town": "Mauville City", "image": "", "slogan": "The bright and shiny city of fun", "connecting": "Route 110, Route 111, Route 117, and Route 118"},
-			{"town": "Mossdeep City", "image": "", "slogan": "Cherish Pokemon", "connecting": "Route 124, Route 125, and Route 127"},
-			{"town": "Oldale Town", "image": "", "slogan": "Where things start off scarce", "connecting": "Route 101, Route 102, Route 103"},
-			{"town": "Pacifidlog Town", "image": "", "slogan": "Where the moring sun smiles upon the waters", "connecting": "Route 131 and Route 132"},
-			{"town": "Petalburg City", "image": "", "slogan": "Where people mingle with nature", "connecting": "Route 102 and Route 104"},
-			{"town": "Rustboro City", "image": "", "slogan": "The city probing the integration of nature and science", "connecting": "Route 115, Route 116, and Route 104"},
-			{"town": "Slateport City", "image": "", "slogan": "The port where people and Pokemon cross paths with nature", "connecting": "Route 109, Route 110, Route 134, and the open ocean"},
-			{"town": "Sootopolis City", "image": "", "slogan": "The mystical city where history slumbers", "connecting": "Route 126"},
-			{"town": "Verdanturf Town", "image": "", "slogan": "The windswept highlands with the sweet fragrance of grass", "connecting": "Rusturf Tunnel and Route 117"}
+			{"town": "Dewford Town", "image": "dewford-town", "slogan": "A tiny island in the blue sea", "connecting": "Route 106 and Route 107"},
+			{"town": "Ever Grande City", "image": "ever-grande-city", "slogan": "", "connecting": "Route 128 and the open ocean"},
+			{"town": "Fallarbor Town", "image": "fallarbor-town", "slogan": "A farm community with small gardens", "connecting": "Route 113 and Route 114"},
+			{"town": "Fortree City", "image": "fortree-city", "slogan": "The treetop city that frolics with nature", "connecting": "Route 119 and Route 120"},
+			{"town": "Lavaridge Town", "image": "lavaridge-town", "slogan": "An excellent place for relaxing", "connecting": "Jagged Pass and Route 112"},
+			{"town": "Littleroot Town", "image": "littleroot-town", "slogan": "A town that can't be shaded any hue", "connecting": "Route 101"},
+			{"town": "Lilycove City", "image": "lilycove-city", "slogan": "Where the land ends and the sea begins", "connecting": "Route 121, Route 124, and the open ocean"},
+			{"town": "Mauville City", "image": "mauville-city", "slogan": "The bright and shiny city of fun", "connecting": "Route 110, Route 111, Route 117, and Route 118"},
+			{"town": "Mossdeep City", "image": "mossdeep-city", "slogan": "Cherish Pokemon", "connecting": "Route 124, Route 125, and Route 127"},
+			{"town": "Oldale Town", "image": "oldale-town", "slogan": "Where things start off scarce", "connecting": "Route 101, Route 102, Route 103"},
+			{"town": "Pacifidlog Town", "image": "pacifidlog-town", "slogan": "Where the moring sun smiles upon the waters", "connecting": "Route 131 and Route 132"},
+			{"town": "Petalburg City", "image": "petalburg-city", "slogan": "Where people mingle with nature", "connecting": "Route 102 and Route 104"},
+			{"town": "Rustboro City", "image": "rustboro-city", "slogan": "The city probing the integration of nature and science", "connecting": "Route 115, Route 116, and Route 104"},
+			{"town": "Slateport City", "image": "slateport-city", "slogan": "The port where people and Pokemon cross paths with nature", "connecting": "Route 109, Route 110, Route 134, and the open ocean"},
+			{"town": "Sootopolis City", "image": "sootopolis-city", "slogan": "The mystical city where history slumbers", "connecting": "Route 126"},
+			{"town": "Verdanturf Town", "image": "verdanturf-town", "slogan": "The windswept highlands with the sweet fragrance of grass", "connecting": "Rusturf Tunnel and Route 117"}
 		]
 	],
 	[
