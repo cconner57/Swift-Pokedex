@@ -38,7 +38,6 @@ struct PokedexItemDetail: View {
 					.frame(width: 250, height: 250)
 			}
 			.padding()
-			
 			.background(
 				Image("pokeball-1")
 					.resizable()
@@ -62,7 +61,7 @@ struct PokedexItemDetail: View {
 				} else if selectedMenu == 1 {
 					PokedexBaseStats(baseStats: pokemon.baseState, name: pokemon.name)
 				} else if selectedMenu == 2 {
-					ScrollView {
+					ScrollView(.vertical, showsIndicators: false) {
 						VStack(alignment: .leading) {
 							HStack {
 								Text("Evolution Chain")
@@ -89,7 +88,7 @@ struct PokedexItemDetail: View {
 					PokedexMoves()
 				}
 			}
-			.background(Color.white)
+			.ignoresSafeArea(edges: .bottom)
 		}
 	}
 }

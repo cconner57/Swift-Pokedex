@@ -1,7 +1,8 @@
 import Foundation
 
 struct Ability: Codable {
-	let name: String
+	let name, effect: String
+	let generation: Int
 }
 
 typealias Abilities = [Ability]

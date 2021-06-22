@@ -9,6 +9,7 @@ struct PokedexItemView: View {
 		VStack(alignment: .leading) {
 			HStack {
 				Text(name)
+					.fontWeight(.heavy)
 					.bold()
 					.font(.subheadline)
 				Spacer()

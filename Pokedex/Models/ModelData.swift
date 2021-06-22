@@ -101,3 +101,24 @@ func readItemsJson() -> Items? {
 			return nil
 		}
 }
+
+
+func readAbilitiesJson() -> Abilities? {
+	guard let file = Bundle.main.path(forResource: "Abilities", ofType: "json") else {
+		return nil
+	}
+		do {
+			let data = try Data(contentsOf: URL(fileURLWithPath: file), options: .mappedIfSafe)
+			let decoder = JSONDecoder()
+			do {
+				let AbilitiesModel = try decoder.decode(Abilities.self, from: data)
+				return AbilitiesModel
+			}catch{
+				print(error)
+				return nil
+			}
+		} catch {
+			print(error)
+			return nil
+		}
+}

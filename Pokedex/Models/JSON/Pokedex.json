@@ -2916,13 +2916,13 @@
 		"eggGroup": "Monster",
 		"eggCycle": "15 (3,599-3855 steps)",
 		"baseState": {
-			"hp": 45,
-			"attack": 49,
-			"defense": 49,
-			"spAttack": 65,
-			"spDefense": 65,
-			"speed": 45,
-			"total": 318
+			"hp": 250,
+			"attack": 5,
+			"defense": 5,
+			"spAttack": 35,
+			"spDefense": 105,
+			"speed": 50,
+			"total": 450
 		},
 		"evolution": []
 	},

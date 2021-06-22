@@ -23,7 +23,7 @@ struct MovieItemView: View {
 					.font(.footnote)
 					.bold()
 			}
-			.foregroundColor(.primary)
+			.foregroundColor(.black)
 			.multilineTextAlignment(.center)
 			.frame(width: 190, height: 140)
 			.padding()

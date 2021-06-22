@@ -3,6 +3,8 @@ import SwiftUI
 struct LocationListView: View {
 	var locations: Locations = readLocationsJson()!
 	
+	@Environment(\.colorScheme) var colorScheme
+	
 	var body: some View {
 		ScrollViewReader { scrollView in
 			ScrollView(.vertical, showsIndicators: false) {
@@ -26,7 +28,7 @@ struct LocationListView: View {
 					LocationMenu(scrollView: scrollView, locationData: locations)
 				}
 			}
-			.background(Color("pokeBlue"))
+//			.background(colorScheme == .dark ? Color.Color("pokeBlue"))
 			.ignoresSafeArea(edges: .bottom)
 		}
 	}

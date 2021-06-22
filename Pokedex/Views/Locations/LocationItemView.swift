@@ -1,6 +1,8 @@
 import SwiftUI
 
 struct LocationItemView: View {
+	@Environment(\.colorScheme) var colorScheme
+	
 	var locationData: Locations
 	var arrayIndex: Int
 	
@@ -26,9 +28,9 @@ struct LocationItemView: View {
 				}
 				.id(UUID())
 				.padding()
-				.background(Color.white)
+				.background(colorScheme == .dark ? Color.black : Color.white)
 				.cornerRadius(10)
-				.shadow(radius: 5)
+				.shadow(color: .gray, radius: 5)
 				.padding()
 				Divider()
 					.background(Color.black)

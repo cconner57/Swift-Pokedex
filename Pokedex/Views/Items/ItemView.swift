@@ -8,6 +8,7 @@ struct ItemView: View {
 			HStack {
 				Text(item.name)
 					.font(.headline)
+					.fontWeight(.heavy)
 				Spacer()
 				Text(item.category)
 					.font(.caption)
@@ -35,6 +36,7 @@ struct ItemView: View {
 				}
 				Text(item.effect)
 					.font(.footnote)
+					.fontWeight(.semibold)
 					.bold()
 					.frame(width: 230)
 			}

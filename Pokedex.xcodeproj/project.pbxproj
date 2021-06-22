@@ -35,6 +35,8 @@
 		A54C575026586D990031DF26 /* PokedexItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54C574F26586D990031DF26 /* PokedexItemView.swift */; };
 		A54C57532658A1040031DF26 /* PokedexViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54C57522658A1040031DF26 /* PokedexViewModel.swift */; };
 		A54C57562658A1860031DF26 /* Pokedex.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54C57552658A1860031DF26 /* Pokedex.swift */; };
+		A554A221268256D200E31BEC /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A554A220268256D200E31BEC /* ToastView.swift */; };
+		A5798BEF268121E600333DF4 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5798BEE268121E600333DF4 /* Launch Screen.storyboard */; };
 		A58B39162671B97400A6D5E1 /* PokedexFilterModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58B39152671B97400A6D5E1 /* PokedexFilterModal.swift */; };
 		A5A4E2F72665A08600DE7659 /* Pokedex.json in Resources */ = {isa = PBXBuildFile; fileRef = A5A4E2F62665A08600DE7659 /* Pokedex.json */; };
 		A5BC9F24265823F800CC714B /* PokedexApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BC9F23265823F800CC714B /* PokedexApp.swift */; };
@@ -81,6 +83,8 @@
 		A54C574F26586D990031DF26 /* PokedexItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexItemView.swift; sourceTree = "<group>"; };
 		A54C57522658A1040031DF26 /* PokedexViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexViewModel.swift; sourceTree = "<group>"; };
 		A54C57552658A1860031DF26 /* Pokedex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokedex.swift; sourceTree = "<group>"; };
+		A554A220268256D200E31BEC /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		A5798BEE268121E600333DF4 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		A58B39152671B97400A6D5E1 /* PokedexFilterModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexFilterModal.swift; sourceTree = "<group>"; };
 		A5A4E2F62665A08600DE7659 /* Pokedex.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Pokedex.json; sourceTree = "<group>"; };
 		A5BC9F20265823F800CC714B /* Pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -162,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				A5BC9F23265823F800CC714B /* PokedexApp.swift */,
+				A5798BEE268121E600333DF4 /* Launch Screen.storyboard */,
 				A5BC9F392658241C00CC714B /* Models */,
 				A5BC9F382658240B00CC714B /* Views */,
 				A5BC9F3A2658242400CC714B /* View Models */,
@@ -190,6 +195,7 @@
 				A5CD9DA0266051CE0050161B /* Items */,
 				A5CD9D9E266051890050161B /* Locations */,
 				A5CD9DA1266051D90050161B /* Type Charts */,
+				A554A220268256D200E31BEC /* ToastView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -339,6 +345,7 @@
 				A51CB11F267A609700151D1D /* Items.json in Resources */,
 				A5293DA1267848DC003426CE /* TypeChart.json in Resources */,
 				A53631FF267E81430010486B /* PokemonUnite.json in Resources */,
+				A5798BEF268121E600333DF4 /* Launch Screen.storyboard in Resources */,
 				A5A4E2F72665A08600DE7659 /* Pokedex.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,6 +386,7 @@
 				A5CD9DA5266052C60050161B /* PokedexItemDetail.swift in Sources */,
 				A5293D9F2676F6F9003426CE /* PokedexListItemView.swift in Sources */,
 				A54C57532658A1040031DF26 /* PokedexViewModel.swift in Sources */,
+				A554A221268256D200E31BEC /* ToastView.swift in Sources */,
 				A54A397B2666ABD8008A894A /* PokedexFilter.swift in Sources */,
 				A5BC9F24265823F800CC714B /* PokedexApp.swift in Sources */,
 				A5352799266B0EF500C14203 /* MovieDetailView.swift in Sources */,

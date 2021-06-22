@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct HomeView: View {
+	@Environment(\.colorScheme) var colorScheme
 //	@State private var homeSearch: String
 	
 	var body: some View {
@@ -15,15 +16,16 @@ struct HomeView: View {
 					HStack(alignment: .center, spacing: 10) {
 						Image(systemName: "magnifyingglass")
 							.font(.title2)
+							.foregroundColor(colorScheme == .dark ? .white : .black)
 						TextField("Search Pokemon, Move, Ability, etc.", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
 							.disableAutocorrection(true)
 							.autocapitalization(.none)
 							.font(.headline)
 					}
 					.padding()
-					.background(Color(red: 245/255, green: 245/255, blue: 245/255))
+					.background(colorScheme == .dark ? Color(red: 45/255, green: 45/255, blue: 45/255) : Color(red: 245/255, green: 245/255, blue: 245/255))
 					.cornerRadius(30)
-					.shadow(color: .gray.opacity(0.7), radius: 10)
+					.shadow(color: colorScheme == .dark ? .white.opacity(0.7) : .gray.opacity(0.7), radius: 10)
 					.padding()
 					LazyVGrid(columns: [GridItem(.adaptive(minimum: 150, maximum: 200))], content: {
 						NavigationLink(destination: PokedexListView()) {
@@ -48,9 +50,9 @@ struct HomeView: View {
 				}
 				.padding(.top)
 				.background(
-					Image("pokeball-nav")
+					Image(colorScheme == .dark ? "pokeball" : "pokeball-nav")
 						.resizable()
-						.aspectRatio(contentMode: .fit)
+						.scaledToFit()
 						.frame(width: 250)
 						.offset(x: 120, y: -175)
 				)
@@ -108,5 +110,6 @@ struct HomeView: View {
 struct HomeView_Previews: PreviewProvider {
 	static var previews: some View {
 		HomeView()
+			.preferredColorScheme(.dark)
 	}
 }

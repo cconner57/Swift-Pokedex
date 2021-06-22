@@ -1,6 +1,8 @@
 import SwiftUI
 
 struct PokedexAbout: View {
+	@Environment(\.colorScheme) var colorScheme
+	
 	var about: String
 	var height: String
 	var weight: String
@@ -28,9 +30,9 @@ struct PokedexAbout: View {
 			}
 			.padding()
 			.font(.callout)
-			.background(Color.white)
+			.background(colorScheme == .dark ? Color.black : Color.white)
 			.cornerRadius(10)
-			.shadow(color: .gray, radius: 7, x: 0.0, y: 7.0)
+			.shadow(color: colorScheme == .dark ? .white : .gray, radius: 3)
 			.padding()
 			VStack(alignment: .leading, spacing: 10) {
 				Text("Breeding")
