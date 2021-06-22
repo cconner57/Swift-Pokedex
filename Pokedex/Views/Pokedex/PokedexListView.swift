@@ -4,6 +4,7 @@ struct PokedexListView: View {
 	var pokemon: Pokedex = readPokedexJson()!
 	
 	@State private var listView = false
+	@State private var showToast = false
 	
 	@State private var showFavorite = false
 	@State private var showType = FilterPokemonType.all
@@ -38,6 +39,9 @@ struct PokedexListView: View {
 				PokedexFilter(genSelected: genSelected, favorite: $showFavorite, type: $showType, gens: $showGens)
 					.animation(.default)
 			}
+			.overlay(
+				ToastView(triggerToast: showToast, notification: listView ? .grid : .list, text: listView ? "Grid" : "List")
+			)
 		}
 		.navigationBarTitleDisplayMode(.inline)
 		.toolbar {
@@ -49,6 +53,10 @@ struct PokedexListView: View {
 			ToolbarItem(placement: .navigationBarTrailing) {
 				Button(action: {
 					listView.toggle()
+					showToast = true
+					DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+						showToast = false
+					}
 				}) {
 					Image(systemName: listView ? "square.grid.2x2" : "list.bullet")
 				}

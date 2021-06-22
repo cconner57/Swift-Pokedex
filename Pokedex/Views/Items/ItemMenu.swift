@@ -1,30 +1,21 @@
 import SwiftUI
 
 struct ItemMenu: View {
+	@Binding var showToast: Bool
 	@Binding var filter: String
+	
+	let menuOptions = ["All Items", "Battle Items", "Berries", "General Items", "Hold Items", "Machines", "Pokeballs"]
 	
     var body: some View {
 		Menu {
-			Button("All Items") {
-				filter = "All Items"
-			}
-			Button("Battle Items") {
-				filter = "Battle Items"
-			}
-			Button("Berries") {
-				filter = "Berries"
-			}
-			Button("General Items") {
-				filter = "General Items"
-			}
-			Button("Hold Items") {
-				filter = "Hold Items"
-			}
-			Button("Machines") {
-				filter = "Machines"
-			}
-			Button("Pokeballs") {
-				filter = "Pokeballs"
+			ForEach(menuOptions, id: \.self) { item in
+				Button(item) {
+					filter = item
+					showToast = true
+					DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+						showToast = false
+					}
+				}
 			}
 		} label: {
 			Image(systemName: "line.horizontal.3.decrease")

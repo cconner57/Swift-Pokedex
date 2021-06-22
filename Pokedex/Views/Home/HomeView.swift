@@ -3,6 +3,7 @@ import SwiftUI
 struct HomeView: View {
 	@Environment(\.colorScheme) var colorScheme
 //	@State private var homeSearch: String
+	@State private var showCredit = false
 	
 	var body: some View {
 		NavigationView {
@@ -55,9 +56,13 @@ struct HomeView: View {
 						.scaledToFit()
 						.frame(width: 250)
 						.offset(x: 120, y: -175)
+						.onLongPressGesture {
+							showCredit.toggle()
+						}
 				)
 				.padding(.bottom)
 				Divider()
+					.background(colorScheme == .dark ? Color.white : Color.gray)
 				VStack {
 					HStack {
 						Text("Pokemon News")
@@ -94,13 +99,14 @@ struct HomeView: View {
 								.padding(.trailing)
 								Image("news")
 									.resizable()
-									.aspectRatio(contentMode: .fit)
+									.scaledToFit()
 									.cornerRadius(15)
 							}
 							.padding()
 						}
 					}
 				}
+				.sheet(isPresented: $showCredit, content: {CreditView()})
 			}
 			.navigationBarHidden(true)
 		}
