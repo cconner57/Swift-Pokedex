@@ -44,6 +44,7 @@ struct PokedexAbout: View {
 						Text("Egg Groups")
 						Text("Egg Cycle")
 					}
+					.frame(width: 90)
 					VStack(alignment: .center, spacing: 5) {
 						HStack {
 							if gender?.first != nil {

@@ -17,7 +17,7 @@ struct PokedexListView: View {
 			ZStack {
 				ScrollView {
 					if !listView {
-						LazyVGrid(columns: [GridItem(.adaptive(minimum: 150, maximum: 185))]) {
+						LazyVGrid(columns: [GridItem(.adaptive(minimum: 175, maximum: 180))]) {
 							ForEach(pokemon, id: \.num) { pokemon in
 								NavigationLink(destination: PokedexItemDetail(pokemon: pokemon)) {
 									PokedexItemView(name: pokemon.name, number: pokemon.num, type: pokemon.type)

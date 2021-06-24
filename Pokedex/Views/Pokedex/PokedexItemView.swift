@@ -9,13 +9,14 @@ struct PokedexItemView: View {
 		VStack(alignment: .leading) {
 			HStack {
 				Text(name)
-					.fontWeight(.heavy)
 					.bold()
-					.font(.subheadline)
+					.font(.callout)
+					.frame(width: 95, alignment: .leading)
 				Spacer()
 				Text("#\(number)")
 					.bold()
-					.font(.headline)
+					.font(.callout)
+					.frame(width: 44, alignment: .trailing)
 			}
 			HStack {
 				VStack {
@@ -40,7 +41,7 @@ struct PokedexItemView: View {
 				.aspectRatio(contentMode: .fit)
 				.offset(x: 60.0, y: 45.0)
 		)
-		.frame(width: 180, height: 150)
+		.frame(minWidth: 150, idealWidth: 160, maxWidth: 170, minHeight: 130, idealHeight: 140, maxHeight: 150)
 		.foregroundColor(.white)
 		.background(Color(findColor(type[0])))
 		.cornerRadius(15)
