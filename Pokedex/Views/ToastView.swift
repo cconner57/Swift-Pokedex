@@ -2,7 +2,7 @@ import SwiftUI
 
 struct ToastView: View {
 	enum notificationType {
-		case list, grid, favorite, normal, fighting, flying, poison, ground, rock, bug, ghost, steel, fire, water, grass, electric, psychic, ice, dragon, dark, fairy, allItems, battleItems, berryItems, generalItems, holdItems, machineItems, pokeballItems
+		case list, grid, favorite, normal, fighting, flying, poison, ground, rock, bug, ghost, steel, fire, water, grass, electric, psychic, ice, dragon, dark, fairy, allItems, battleItems, berryItems, generalItems, holdItems, machineItems, medicineItems, pokeballItems
 	}
 	
 	@Environment(\.colorScheme) var colorScheme
@@ -35,7 +35,7 @@ struct ToastView: View {
 			return "Showing favorites"
 		case .normal, .fighting, .flying, .poison, .ground, .rock, .bug, .ghost, .steel, .fire, .water, .grass, .electric, .psychic, .ice, .dragon, .dark, .fairy:
 			return "Showing \(text!) Type"
-		case .allItems, .battleItems, .berryItems, .generalItems, .holdItems, .machineItems, .pokeballItems:
+		case .allItems, .battleItems, .berryItems, .generalItems, .holdItems, .machineItems, .medicineItems, .pokeballItems:
 			return "Showing \(text!)"
 		}
 	}

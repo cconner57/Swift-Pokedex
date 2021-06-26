@@ -4,7 +4,7 @@ struct ItemMenu: View {
 	@Binding var showToast: Bool
 	@Binding var filter: String
 	
-	let menuOptions = ["All Items", "Battle Items", "Berries", "General Items", "Hold Items", "Machines", "Pokeballs"]
+	let menuOptions = ["All Items", "Battle Items", "Berries", "General Items", "Hold Items", "Machines", "Medicine", "Pokeballs"]
 	
     var body: some View {
 		Menu {

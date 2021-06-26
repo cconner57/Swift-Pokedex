@@ -42,6 +42,8 @@ struct ItemsListView: View {
 			return .holdItems
 		case "Machines":
 			return .machineItems
+		case "Medicine":
+			return .medicineItems
 		case "Pokeballs":
 			return .pokeballItems
 		default:

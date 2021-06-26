@@ -28,6 +28,10 @@ struct CreditView: View {
 				Text("Some of my other projects")
 				Link("Github Link", destination: URL(string: "https://github.com/cconner57")!)
 			}
+			
+			VStack {
+				Text("Special thanks to Allison_Wonderland \nfor reviewing and testing the app 😊")
+			}
 		}
     }
 }
