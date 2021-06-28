@@ -23,23 +23,23 @@ struct PokedexFilter: View {
 		ZStack {
 			if isFilterButtonPressed {
 				VStack(alignment: .trailing) {
-					Button(action: {
-						isFilterButtonPressed.toggle()
-						isMenuOpen.toggle()
-						isMenuAnimated.toggle()
-					}, label: {
-						if isMenuAnimated{
-							Text("Favorite Pokemon")
-								.foregroundColor(.black)
-						}
-						Image(systemName: "heart.fill")
-							.foregroundColor(Color.blue)
-					})
-					.padding()
-					.background(Color.white)
-					.clipShape(Capsule())
-					.offset(x: 0, y: isMenuOpen ? 0 : 272)
-					.offset(x: isMenuAnimated ? 54 : 125, y: isMenuAnimated ? 172 : 170)
+//					Button(action: {
+//						isFilterButtonPressed.toggle()
+//						isMenuOpen.toggle()
+//						isMenuAnimated.toggle()
+//					}, label: {
+//						if isMenuAnimated{
+//							Text("Favorite Pokemon")
+//								.foregroundColor(.black)
+//						}
+//						Image(systemName: "heart.fill")
+//							.foregroundColor(Color.blue)
+//					})
+//					.padding()
+//					.background(Color.white)
+//					.clipShape(Capsule())
+//					.offset(x: 0, y: isMenuOpen ? 0 : 272)
+//					.offset(x: isMenuAnimated ? 54 : 125, y: isMenuAnimated ? 172 : 170)
 					
 					Button(action: {
 						isOptionSelected = "types"
@@ -56,44 +56,46 @@ struct PokedexFilter: View {
 					.padding()
 					.background(Color.white)
 					.clipShape(Capsule())
-					.offset(x: -1, y: isMenuOpen ? 0 : 205)
-					.offset(x: isMenuAnimated ? 54 : 125, y: isMenuAnimated ? 180 : 180)
+//					.offset(x: -1, y: isMenuOpen ? 0 : 205)
+//					.offset(x: isMenuAnimated ? 54 : 125, y: isMenuAnimated ? 180 : 180)
+					.offset(x: 0, y: isMenuOpen ? 0 : 75)
+					.offset(x: isMenuAnimated ? 85 : 125, y: 280)
 					
-					Button(action: {
-						isOptionSelected = "gens"
-						isMenuAnimated.toggle()
-						isMenuOpen.toggle()
-					}, label: {
-						if isMenuAnimated{
-							Text("All Gens")
-								.foregroundColor(.black)
-						}
-						Image(systemName: "square.stack.3d.up.fill")
-							.foregroundColor(Color.blue)
-					})
-					.padding()
-					.background(Color.white)
-					.clipShape(Capsule())
-					.offset(x: 0, y: isMenuOpen ? 0 : 135)
-					.offset(x: isMenuAnimated ? 54 : 125, y: isMenuAnimated ? 188 : 190)
+//					Button(action: {
+//						isOptionSelected = "gens"
+//						isMenuAnimated.toggle()
+//						isMenuOpen.toggle()
+//					}, label: {
+//						if isMenuAnimated{
+//							Text("All Gens")
+//								.foregroundColor(.black)
+//						}
+//						Image(systemName: "square.stack.3d.up.fill")
+//							.foregroundColor(Color.blue)
+//					})
+//					.padding()
+//					.background(Color.white)
+//					.clipShape(Capsule())
+//					.offset(x: 0, y: isMenuOpen ? 0 : 135)
+//					.offset(x: isMenuAnimated ? 54 : 125, y: isMenuAnimated ? 188 : 190)
 					
-					Button(action: {
-						isOptionSelected = "search"
-						isMenuAnimated.toggle()
-						isMenuOpen.toggle()
-					}, label: {
-						if isMenuAnimated{
-							Text("Search")
-								.foregroundColor(.black)
-						}
-						Image(systemName: "magnifyingglass")
-							.foregroundColor(Color.blue)
-					})
-					.padding()
-					.background(Color.white)
-					.clipShape(Capsule())
-					.offset(x: 0, y: isMenuOpen ? 0 : 65)
-					.offset(x: isMenuAnimated ? 54 : 125, y: isMenuAnimated ? 198 : 200)
+//					Button(action: {
+//						isOptionSelected = "search"
+//						isMenuAnimated.toggle()
+//						isMenuOpen.toggle()
+//					}, label: {
+//						if isMenuAnimated{
+//							Text("Search")
+//								.foregroundColor(.black)
+//						}
+//						Image(systemName: "magnifyingglass")
+//							.foregroundColor(Color.blue)
+//					})
+//					.padding()
+//					.background(Color.white)
+//					.clipShape(Capsule())
+//					.offset(x: 0, y: isMenuOpen ? 0 : 65)
+//					.offset(x: isMenuAnimated ? 54 : 125, y: isMenuAnimated ? 198 : 200)
 				}
 				.frame(maxWidth: .infinity, maxHeight: .infinity)
 				.background(Color(red: 0/255, green: 0/255, blue: 0/255, opacity: 0.6))

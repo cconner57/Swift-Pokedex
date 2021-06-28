@@ -11,7 +11,7 @@ struct PokemonGen: Identifiable {
 }
 
 struct PokedexFilterModal: View {
-	var pokemonTypes = ["normal", "fire", "water", "grass", "electric", "ice", "fighting", "poison", "ground", "flying", "psychic", "bug", "rock", "ghost", "dark", "dragon", "steel", "fairy"]
+	var pokemonTypes = ["normal", "fire", "water", "grass", "electric", "ice", "fighting", "poison", "ground", "flying", "psychic", "bug", "rock", "ghost", "dark", "dragon", "steel", "fairy", "All"]
 	
 	var starterPokemon = [
 		PokemonGen(gen: "Generation I", pokemon: ["bulbasaur", "charmander", "squirtle"]),
@@ -71,7 +71,8 @@ struct PokedexFilterModal: View {
 							//Fix shadow error
 							//								.shadow(color: genSelected.generationID == gen.id ? Color.blue : Color.gray, radius: 10, x: 0, y: genSelected.generationID == gen.id ? 0 : 5)
 								.onTapGesture {
-//									genSelected.generationID = gen.id
+									genSelected.pokemonTypes = type
+									print(genSelected.pokemonTypes)
 									filterButtonPressed = false
 									optionSelected = ""
 								}
@@ -130,9 +131,16 @@ struct PokemonTypeItem: View {
 	
 	var body: some View {
 		HStack {
-			Image(type)
-				.resizable()
-				.scaledToFit()
+			if type == "All" {
+				Image("pokedexIcon1")
+					.resizable()
+					.scaledToFit()
+					.clipShape(Circle())
+			} else {
+				Image(type)
+					.resizable()
+					.scaledToFit()
+			}
 		}
 		.overlay(
 					RoundedRectangle(cornerRadius: 30)

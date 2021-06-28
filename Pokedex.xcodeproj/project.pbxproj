@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5097CB12687F1070008CCEE /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5097CB02687F1070008CCEE /* HomeViewModel.swift */; };
+		A5097CB32687F4850008CCEE /* NewsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5097CB22687F4850008CCEE /* NewsListView.swift */; };
+		A5097CB52687F4930008CCEE /* NewsItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5097CB42687F4930008CCEE /* NewsItemView.swift */; };
 		A51C83B626794A9700CB8CCF /* TypeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51C83B526794A9700CB8CCF /* TypeData.swift */; };
 		A51CB11A2679A04D00151D1D /* TypeChartItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51CB1192679A04D00151D1D /* TypeChartItems.swift */; };
 		A51CB11C267A608A00151D1D /* Abilities.json in Resources */ = {isa = PBXBuildFile; fileRef = A51CB11B267A608A00151D1D /* Abilities.json */; };
@@ -18,6 +21,8 @@
 		A52F637B267D2E1400DC64CF /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52F637A267D2E1300DC64CF /* Items.swift */; };
 		A52F637D267D442A00DC64CF /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52F637C267D442A00DC64CF /* ItemView.swift */; };
 		A52F637F267D48A200DC64CF /* Abilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52F637E267D48A200DC64CF /* Abilities.swift */; };
+		A52FA46D268911FA000EEF13 /* ComingSoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52FA46C268911FA000EEF13 /* ComingSoonView.swift */; };
+		A52FA46F26891B47000EEF13 /* SearchbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52FA46E26891B47000EEF13 /* SearchbarView.swift */; };
 		A5352793266ADD5100C14203 /* MovieItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5352792266ADD5100C14203 /* MovieItemView.swift */; };
 		A5352795266ADE5300C14203 /* Movies.json in Resources */ = {isa = PBXBuildFile; fileRef = A5352794266ADE5300C14203 /* Movies.json */; };
 		A5352797266B04B300C14203 /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5352796266B04B300C14203 /* Movies.swift */; };
@@ -56,6 +61,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A5097CB02687F1070008CCEE /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		A5097CB22687F4850008CCEE /* NewsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListView.swift; sourceTree = "<group>"; };
+		A5097CB42687F4930008CCEE /* NewsItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsItemView.swift; sourceTree = "<group>"; };
 		A51C83B526794A9700CB8CCF /* TypeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeData.swift; sourceTree = "<group>"; };
 		A51CB1192679A04D00151D1D /* TypeChartItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeChartItems.swift; sourceTree = "<group>"; };
 		A51CB11B267A608A00151D1D /* Abilities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Abilities.json; sourceTree = "<group>"; };
@@ -67,6 +75,8 @@
 		A52F637A267D2E1300DC64CF /* Items.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
 		A52F637C267D442A00DC64CF /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
 		A52F637E267D48A200DC64CF /* Abilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abilities.swift; sourceTree = "<group>"; };
+		A52FA46C268911FA000EEF13 /* ComingSoonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingSoonView.swift; sourceTree = "<group>"; };
+		A52FA46E26891B47000EEF13 /* SearchbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchbarView.swift; sourceTree = "<group>"; };
 		A5352792266ADD5100C14203 /* MovieItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieItemView.swift; sourceTree = "<group>"; };
 		A5352794266ADE5300C14203 /* Movies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Movies.json; sourceTree = "<group>"; };
 		A5352796266B04B300C14203 /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
@@ -198,6 +208,7 @@
 				A5CD9D9E266051890050161B /* Locations */,
 				A5CD9DA1266051D90050161B /* Type Charts */,
 				A554A220268256D200E31BEC /* ToastView.swift */,
+				A52FA46C268911FA000EEF13 /* ComingSoonView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -222,6 +233,7 @@
 			isa = PBXGroup;
 			children = (
 				A54C57522658A1040031DF26 /* PokedexViewModel.swift */,
+				A5097CB02687F1070008CCEE /* HomeViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -248,6 +260,9 @@
 			isa = PBXGroup;
 			children = (
 				A5BC9F25265823F800CC714B /* HomeView.swift */,
+				A52FA46E26891B47000EEF13 /* SearchbarView.swift */,
+				A5097CB22687F4850008CCEE /* NewsListView.swift */,
+				A5097CB42687F4930008CCEE /* NewsItemView.swift */,
 				A54C573426582D980031DF26 /* MenuButtonView.swift */,
 				A554A22226828C7D00E31BEC /* CreditView.swift */,
 			);
@@ -366,16 +381,20 @@
 				A5C778192662FC680096FBD6 /* ModelData.swift in Sources */,
 				A5C7781F266318C30096FBD6 /* PokedexBaseStats.swift in Sources */,
 				A54C574B265869B00031DF26 /* TypeChartListView.swift in Sources */,
+				A52FA46D268911FA000EEF13 /* ComingSoonView.swift in Sources */,
 				A54C575026586D990031DF26 /* PokedexItemView.swift in Sources */,
 				A5C77825266319140096FBD6 /* PokedexMoves.swift in Sources */,
 				A54C573526582D980031DF26 /* MenuButtonView.swift in Sources */,
 				A51CB11A2679A04D00151D1D /* TypeChartItems.swift in Sources */,
+				A5097CB12687F1070008CCEE /* HomeViewModel.swift in Sources */,
+				A5097CB52687F4930008CCEE /* NewsItemView.swift in Sources */,
 				A54C573C265861670031DF26 /* PokedexListView.swift in Sources */,
 				A51CB122267A8BCD00151D1D /* Locations.swift in Sources */,
 				A5E78FF2267EB2BA00A29F0A /* ItemMenu.swift in Sources */,
 				A5BC9F26265823F800CC714B /* HomeView.swift in Sources */,
 				A5C7781C266318800096FBD6 /* PokedexAbout.swift in Sources */,
 				A5F6D6B8267C46C6001B37FD /* LocationMenu.swift in Sources */,
+				A5097CB32687F4850008CCEE /* NewsListView.swift in Sources */,
 				A54C57422658697E0031DF26 /* AbilitiesListView.swift in Sources */,
 				A5352797266B04B300C14203 /* Movies.swift in Sources */,
 				A51C83B626794A9700CB8CCF /* TypeData.swift in Sources */,
@@ -383,6 +402,7 @@
 				A58B39162671B97400A6D5E1 /* PokedexFilterModal.swift in Sources */,
 				A52F637D267D442A00DC64CF /* ItemView.swift in Sources */,
 				A5C77822266318EB0096FBD6 /* PokedexEvolution.swift in Sources */,
+				A52FA46F26891B47000EEF13 /* SearchbarView.swift in Sources */,
 				A52F637B267D2E1400DC64CF /* Items.swift in Sources */,
 				A5352793266ADD5100C14203 /* MovieItemView.swift in Sources */,
 				A52F637F267D48A200DC64CF /* Abilities.swift in Sources */,

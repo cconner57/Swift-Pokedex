@@ -19,8 +19,12 @@ struct CreditView: View {
 				Text("Project Roadmap")
 					.underline()
 					.bold()
+				Text("Pokemon News")
+				Text("Global Searchbar")
+				Text("Pokedex - Favorite Pokemon")
+				Text("Pokedex - Gen 2+ Pokemon")
+				Text("Pokedex - Search Pokemon")
 				Text("Pokemon Unite")
-				Text("Pokedex Gen 2+")
 				Text("Pokemon Snap")
 			}
 			

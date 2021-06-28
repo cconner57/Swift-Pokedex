@@ -85,7 +85,8 @@ struct PokedexItemDetail: View {
 					}
 					.padding(.horizontal)
 				} else {
-					PokedexMoves()
+					ComingSoonView()
+//					PokedexMoves()
 				}
 			}
 			.ignoresSafeArea(edges: .bottom)
